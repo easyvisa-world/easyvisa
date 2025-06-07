@@ -142,7 +142,13 @@ function updateButtons() {
   qs("#visa-label").textContent = visa
     ? visa.labels[lang]
     : (lang === "RU" ? "Визы" : "Visas");
-  qs("#biz-label").textContent = (lang === "RU" ? "Бизнес" : "Business");
+  const hasBiz = (EV_CONFIG.biz[country] && EV_CONFIG.biz[country].length > 0);
+  const hasRun = (EV_CONFIG.vizarun && EV_CONFIG.vizarun[country] && EV_CONFIG.vizarun[country].length > 0);
+  qs("#biz-label").textContent = hasBiz
+    ? (lang === "RU" ? "Бизнес" : "Business")
+    : hasRun
+      ? (lang === "RU" ? "Визараны" : "Visa Runs")
+      : "";
 }
 
 function initSideMenu() {
