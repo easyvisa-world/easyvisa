@@ -74,7 +74,9 @@ function buildBizList() {
   const wrap = qs("#biz-drop");
   const list = qs("#biz-list");
   list.innerHTML = "";
-  const arr = EV_CONFIG.biz[country] || [];
+  const bizArr = (EV_CONFIG.biz[country] || []);
+  const runArr = (EV_CONFIG.vizarun && EV_CONFIG.vizarun[country]) ? EV_CONFIG.vizarun[country] : [];
+  const arr    = bizArr.length ? bizArr : runArr; // если нет бизнеса, показываем визараны
   if (!arr.length) {
     wrap.style.display = "none";
     return;
