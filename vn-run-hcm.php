@@ -19,7 +19,7 @@
   <meta name="twitter:description" content="Обнови визу за 180 минут. От $190, всё под ключ. Без ночёвок и “агентов”.">
   <meta name="twitter:image" content="https://easyvisa.world/wp-content/uploads/2023/12/logo2.svg_.svg">
   <script src="https://cdn.tailwindcss.com"></script>
-  <style>/* CSS не изменён */</style>
+<link rel="stylesheet" href="/include/mainstyle.css">
 <?php include $_SERVER['DOCUMENT_ROOT'].'/include/head_links.php'; ?>
 </head>
 <?php include($_SERVER['DOCUMENT_ROOT']."/include/header.php"); ?>
