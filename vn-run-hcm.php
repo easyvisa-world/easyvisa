@@ -33,7 +33,7 @@
     <!-- БАННЕР с group -->
     <div class="relative flex-1 bg-[#191d26]/95 border-4 border-[#27ffab] rounded-2xl shadow-[0_0_40px_6px_rgba(39,255,171,0.13)] p-7 flex flex-col justify-between min-w-[320px] group cursor-pointer" id="gta-visa-banner">
       <div>
-        <div class="font-gta text-3xl md:text-4xl font-extrabold text-white mb-2 leading-tight drop-shadow-[0_0_12px_#29fc94b0]">Визаран из Хошимина — от $190</div>
+        <div class="font-gta text-3xl md:text-4xl font-extrabold text-white mb-2 leading-tight drop-shadow-[0_0_12px_#29fc94b0]">Визаран из Хошимина от $190</div>
         <div class="text-lg md:text-xl font-semibold text-[#ffe95d] mb-4 leading-snug">
           Новый штамп за 1 день: виза в Камбоджу, виза во Вьетнам на 90 дней, трансфер туда-обратно, всё включено.
         </div>
