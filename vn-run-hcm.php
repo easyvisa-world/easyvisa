@@ -42,7 +42,7 @@
         <div class="text-[#36ffad] font-bold text-xs sm:text-base">Групповой — от $190 / Индивидуальный — от $300</div>
         <div class="flex flex-col items-end">
           <div class="bg-[#15181d] border-2 border-[#ffe95d] px-7 py-3 rounded-xl flex items-baseline gap-2 shadow-[0_0_12px_#ffe95dbb]">
-            <span class="text-3xl text-[#ffe95d] font-extrabold font-gta drop-shadow-[0_0_7px_#ffe95da1]">от $190</span>
+            <span class="text-3xl text-[#ffe95d] font-extrabold font-gta drop-shadow-[0_0_7px_#ffe95da1]">$190</span>
             <span class="text-[#ffe95d] text-lg font-gta">USD</span>
           </div>
         </div>
