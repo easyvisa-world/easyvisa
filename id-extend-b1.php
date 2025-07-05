@@ -63,7 +63,7 @@
 <main>
   <div class="service-container">
     <!-- Hero Section -->
-    <section class="hero-section">
+    <section class="hero-section" style="background:linear-gradient(135deg,#0891b2 0%,#0ea5e9 100%);">
       <div class="hero-content">
         <h1 class="hero-title">Продление визы B1 — ещё 30 дней на Бали</h1>
         <p class="hero-subtitle">Продлим B1 за 1 день, без визарана и штрафов. Оставайся легально — наслаждайся островом.</p>
@@ -139,8 +139,8 @@
             <p>Более 4000 человек уже продлили B1 через нас — без штрафов и очередей. Не рискуй своим спокойствием — останься на Бали легально. Напиши нам сейчас и забудь о визовых проблемах.</p>
           </div>
         </div>
-      </div><!-- /.steps-grid -->
-    </section><!-- /.steps-section -->
+      </div>
+    </section>
 
     <!-- Final CTA -->
     <section class="final-cta">
@@ -153,14 +153,64 @@
         </div>
       </div>
     </section>
-  </div><!-- /.service-container -->
+  </div>
 
-  <!-- Lead Form Modal (остался без изменений) -->
-  <?php /* ... модальное окно лид-формы как в оригинале ... */ ?>
+  <!-- Lead Form Modal -->
+  <div id="leadFormModal" class="lead-form-modal">
+    <div class="lead-form-overlay" onclick="closeLeadFormModal()"></div>
+    <div class="lead-form-content">
+      <button class="lead-form-close" onclick="closeLeadFormModal()" aria-label="Закрыть">&times;</button>
 
+      <div class="lead-form-header">
+        <h3 class="lead-form-title">Получить консультацию по продлению B1</h3>
+        <p class="lead-form-subtitle">Оставьте контакты, и мы свяжемся с вами в течение 15 минут</p>
+      </div>
+
+      <form id="leadForm" class="lead-form" action="/api/lead" method="post" autocomplete="off">
+        <input type="hidden" name="csrf_token" value="<?php echo htmlspecialchars($_SESSION['csrf_token'] ?? ''); ?>">
+
+        <div class="form-group">
+          <label for="leadName" class="form-label">Имя</label>
+          <input type="text" id="leadName" name="name" class="form-input" placeholder="Ваше имя" required>
+        </div>
+
+        <div class="form-group">
+          <label for="leadContact" class="form-label">Telegram или WhatsApp</label>
+          <input type="text" id="leadContact" name="contact" class="form-input" placeholder="@username или номер телефона" required>
+        </div>
+
+        <div class="form-group">
+          <label for="leadComment" class="form-label">Дополнительные вопросы (необязательно)</label>
+          <textarea id="leadComment" name="comment" class="form-textarea" placeholder="Расскажите о ваших планах или задайте вопрос" rows="3"></textarea>
+        </div>
+
+        <button type="submit" class="form-submit-btn" id="submitLeadForm">
+          <svg width="20" height="20" fill="none" stroke="currentColor" viewBox="0 0 24 24" aria-hidden="true" focusable="false">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 19l9 2-9-18-9 18 9-2zm0 0v-8"></path>
+          </svg>
+          Отправить заявку
+        </button>
+      </form>
+
+      <div id="leadFormSuccess" class="lead-form-success" style="display:none;">
+        <div class="success-icon">✓</div>
+        <h4 class="success-title">Заявка отправлена!</h4>
+        <p class="success-message">Мы свяжемся с вами в течение 15 минут для консультации по продлению B1</p>
+        <div class="success-buttons">
+          <a href="https://t.me/evisa_support" target="_blank" class="success-btn success-btn-telegram">
+            <svg width="18" height="18" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true" focusable="false">
+              <path d="M11.944 0A12 12 0 0 0 0 12a12 12 0 0 0 12 12 12 12 0 0 0 12-12A12 12 0 0 0 12 0a12 12 0 0 0-.056 0zm4.962 7.224c.1-.002.321.023.465.14a.506.506 0 0 1 .171.325c.016.093.036.306.02.472-.18 1.898-.962 6.502-1.36 8.627-.168.9-.499 1.201-.82 1.23-.696.065-1.225-.46-1.9-.902-1.056-.693-1.653-1.124-2.678-1.8-1.185-.78-.417-1.21.258-1.91.177-.184 3.247-2.977 3.307-3.23-.056-.212-.174-.041-.249-.024-.106.024-1.793 1.14-5.061 3.345-.48.33-.913.49-1.302.48-.428-.008-1.252-.241-1.865-.44-.752-.245-1.349-.374-1.297-.789.027-.216.325-.437.893-.663 3.498-1.524 5.83-2.529 6.998-3.014 3.332-1.386 4.025-1.627 4.476-1.635z"/>
+            </svg>
+            Написать сейчас
+          </a>
+          <button onclick="closeLeadFormModal()" class="success-btn success-btn-close">Закрыть</button>
+        </div>
+      </div>
+    </div>
+  </div>
 </main>
 
 <?php include($_SERVER['DOCUMENT_ROOT'].'/include/footer.php'); ?>
-<script src=\"/js/app_add.js\" defer></script>
+<script src="/js/app_add.js" defer></script>
 </body>
 </html>
