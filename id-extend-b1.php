@@ -4,32 +4,32 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-  <title>Виза B1 на Бали — EasyVisa | Оформление и продление за 1 час</title>
-  <meta name="description" content="Оформите или продлите визу B1 на Бали всего за $59. Бесплатная бронь обратного билета, оформление онлайн за 1 час, поддержка 24/7.">
+  <title>Продление визы B1 на Бали — EasyVisa | Без визарана и штрафов</title>
+  <meta name="description" content="Продлим визу B1 на Бали всего за $59 без визарана и скрытых платежей. Онлайн‑оформление за 1 день, бесплатная бронь билета, поддержка 24/7.">
 
   <!-- Canonical & hreflang -->
-  <link rel="canonical" href="https://easyvisa.world/b1">
-  <link rel="alternate" hreflang="ru" href="https://easyvisa.world/b1">
-  <link rel="alternate" hreflang="en" href="https://easyvisa.world/en/b1">
+  <link rel="canonical" href="https://easyvisa.world/b1/extend">
+  <link rel="alternate" hreflang="ru" href="https://easyvisa.world/b1/extend">
+  <link rel="alternate" hreflang="en" href="https://easyvisa.world/en/b1/extend">
 
   <!-- Favicon -->
   <link rel="icon" type="image/png" href="/logo-visa.png">
 
   <!-- Open Graph -->
   <meta property="og:type" content="website">
-  <meta property="og:url" content="https://easyvisa.world/b1">
-  <meta property="og:title" content="Виза B1 на Бали — EasyVisa | Оформление и продление за 1 час">
-  <meta property="og:description" content="Оформите или продлите визу B1 на Бали всего за $59. Бесплатная бронь обратного билета, оформление онлайн за 1 час, поддержка 24/7.">
-  <meta property="og:image" content="https://easyvisa.world/img/og-b1.png">
+  <meta property="og:url" content="https://easyvisa.world/b1/extend">
+  <meta property="og:title" content="Продление визы B1 на Бали — EasyVisa | Без визарана и штрафов">
+  <meta property="og:description" content="Продлим визу B1 на Бали всего за $59 без визарана и скрытых платежей. Онлайн‑оформление за 1 день, бесплатная бронь билета, поддержка 24/7.">
+  <meta property="og:image" content="https://easyvisa.world/img/og-b1-extend.png">
   <meta property="og:image:width" content="1200">
   <meta property="og:image:height" content="630">
   <meta property="og:site_name" content="EasyVisa">
 
   <!-- Twitter -->
   <meta name="twitter:card" content="summary_large_image">
-  <meta name="twitter:title" content="Виза B1 на Бали — EasyVisa | Оформление и продление за 1 час">
-  <meta name="twitter:description" content="Оформите или продлите визу B1 на Бали всего за $59. Бесплатная бронь обратного билета, оформление онлайн за 1 час, поддержка 24/7.">
-  <meta name="twitter:image" content="https://easyvisa.world/img/og-b1.png">
+  <meta name="twitter:title" content="Продление визы B1 на Бали — EasyVisa | Без визарана и штрафов">
+  <meta name="twitter:description" content="Продлим визу B1 на Бали всего за $59 без визарана и скрытых платежей. Онлайн‑оформление за 1 день, бесплатная бронь билета, поддержка 24/7.">
+  <meta name="twitter:image" content="https://easyvisa.world/img/og-b1-extend.png">
 
   <!-- Styles -->
   <link rel="preload" href="/include/style_add.css" as="style" onload="this.rel='stylesheet'">
@@ -40,8 +40,8 @@
   {
     "@context": "https://schema.org",
     "@type": "Service",
-    "name": "B1 (E-VOA) Visa for Bali",
-    "description": "Electronic B1 visa for 30 days with the option to extend, issued online within 1–2 hours. Price $59, no hidden fees.",
+    "name": "B1 Visa Extension for Bali",
+    "description": "Extension of electronic B1 visa for additional 30 days. Online processing in 1 day, price $59, all fees included.",
     "provider": {
       "@type": "Organization",
       "name": "EasyVisa",
@@ -51,7 +51,7 @@
       "@type": "Offer",
       "price": "59",
       "priceCurrency": "USD",
-      "url": "https://easyvisa.world/b1",
+      "url": "https://easyvisa.world/b1/extend",
       "availability": "https://schema.org/InStock"
     }
   }
@@ -65,15 +65,15 @@
     <!-- Hero Section -->
     <section class="hero-section">
       <div class="hero-content">
-        <h1 class="hero-title">
-          <span lang="ru">Виза B1 (E-VOA) — 30 дней на Бали</span>
-          <span lang="en" style="display:none;">B1 Visa (E-VOA) — 30 Days in Bali</span>
+        <h1 class="hero-title" style="color:#0891b2;">
+          <span lang="ru">Продление визы B1 — ещё 30 дней на Бали</span>
+          <span lang="en" style="display:none;">B1 Visa Extension — extra 30 days in Bali</span>
         </h1>
         <p class="hero-subtitle">
-          <span lang="ru">Оформление онлайн за 1–2 часа. Быстрое прохождение контроля без вопросов. Продление доступно без выезда.</span>
-          <span lang="en" style="display:none;">Online processing in 1–2 hours. Fast border control without questions. Extension available without exit.</span>
+          <span lang="ru">Онлайн‑оформление за 1 день. Без визарана, очередей и штрафов. Всё оплачено заранее.</span>
+          <span lang="en" style="display:none;">Online processing in 1 day. No visa‑run, queues or fines. All fees paid in advance.</span>
         </p>
-        <div class="price-badge">$59 USD</div>
+        <div class="price-badge" style="background:#0891b2;">$59 USD</div>
         <div class="cta-buttons">
           <a href="https://t.me/evisa_support" target="_blank" class="btn btn-primary">
             <svg width="20" height="20" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true" focusable="false">
@@ -93,9 +93,9 @@
 
     <!-- Steps Section -->
     <section class="steps-section">
-      <h2 class="section-title">
-        <span lang="ru">Как получить визу B1</span>
-        <span lang="en" style="display:none;">How to Get B1 Visa</span>
+      <h2 class="section-title" style="color:#0891b2;">
+        <span lang="ru">Как продлить визу B1</span>
+        <span lang="en" style="display:none;">How to Extend B1 Visa</span>
       </h2>
 
       <div class="steps-grid">
@@ -103,15 +103,15 @@
         <div class="step-card">
           <div class="step-number">1</div>
           <h3 class="step-title">
-            <span lang="ru">Оформление визы B1 за $59</span>
-            <span lang="en" style="display:none;">B1 Visa Processing for $59</span>
+            <span lang="ru">Продление визы B1 за $59</span>
+            <span lang="en" style="display:none;">B1 Visa Extension for $59</span>
           </h3>
           <div class="step-content">
             <p lang="ru">
-              Представь: ты только что прилетел на Бали, и вместо очередей ты просто проходишь через автогейт, не отвечая ни на один вопрос. Заранее оформленная B1 — это билет в новый отпуск без нервов и задержек. Ты экономишь часы жизни и не сталкиваешься с "добрыми" пограничниками. Те, кто без визы — стоят в очереди, отвечают на вопросы, ищут билет, а ты первым выходишь встречать рассвет на пляже.
+              Виза подходит к концу? Не хочется никуда улетать, тратить деньги на билеты и нервы? Продление B1 — шанс остаться легально на Бали ещё на месяц. Продлим за 1 день, без очередей, визарана и штрафов. Забудь про иммиграцию — наслаждайся островом.
             </p>
             <p lang="en" style="display:none;">
-              Imagine: you just landed in Bali, and instead of queues you simply pass through the autogate without answering a single question. A pre-arranged B1 is your ticket to a vacation free of stress and delays. You save hours of life and avoid dealing with “friendly” border officers. Those without a visa stand in line, answer questions, look for tickets, while you’re the first to greet the sunrise on the beach.
+              Visa expiring soon? Don’t want to fly anywhere, waste money on tickets and stress? B1 extension lets you stay legally in Bali for another month. We renew it in 1 day, with no queues, no visa‑run and no fines. Forget immigration — enjoy the island.
             </p>
           </div>
         </div>
@@ -125,16 +125,16 @@
           </h3>
           <div class="step-content">
             <ul class="features-list" lang="ru">
-              <li>Электронная виза B1 сразу на 30 дней с возможностью продления</li>
-              <li>Проход через автогейт — не нужно ни с кем говорить</li>
-              <li>Бесплатная бронь обратного билета для контроля на границе</li>
-              <li>Всё полностью онлайн, никаких скрытых платежей</li>
+              <li>Онлайн‑оформление за 1 день</li>
+              <li>Бесплатная бронь обратного билета</li>
+              <li>Полное сопровождение: поддержка на русском, отвечаем на все вопросы</li>
+              <li>Не нужно сдавать паспорт — всё оформляется онлайн</li>
             </ul>
             <ul class="features-list" lang="en" style="display:none;">
-              <li>Electronic B1 visa for 30 days with extension possibility</li>
-              <li>Autogate passage — no need to talk to anyone</li>
-              <li>Free return ticket booking for border control</li>
-              <li>Everything completely online, no hidden fees</li>
+              <li>Online processing within 1 day</li>
+              <li>Free return ticket booking</li>
+              <li>Full support in English & Russian</li>
+              <li>No need to hand in your passport — everything done online</li>
             </ul>
           </div>
         </div>
@@ -148,18 +148,20 @@
           </h3>
           <div class="step-content">
             <ol lang="ru">
-              <li><strong>1.</strong> Напиши нам в Telegram: <strong><a href="https://t.me/evisa_support" style="color:#3b82f6;">@evisa_support</a></strong></li>
-              <li><strong>2.</strong> Отправь фото паспорта, селфи и планируемую дату прилета</li>
-              <li><strong>3.</strong> Мы делаем бронь обратного билета</li>
-              <li><strong>4.</strong> Ты оплачиваешь, и мы всё оформляем — виза приходит онлайн, через 1-2 часа</li>
-              <li><strong>5.</strong> К оплате принимаем: IDR/MYR/VND/RUB/EUR/USDT</li>
+              <li><strong>1.</strong> Напиши нам в Telegram: <strong><a href="https://t.me/evisa_support" style="color:#0891b2;">@evisa_support</a></strong></li>
+              <li><strong>2.</strong> Отправь фото паспорта, селфи и оплату</li>
+              <li><strong>3.</strong> В течение 2 рабочих дней назначим сдачу биометрии</li>
+              <li><strong>4.</strong> Сдаёшь отпечатки и фото в миграционной</li>
+              <li><strong>5.</strong> Платить в миграционной больше не нужно — всё оплачено заранее</li>
+              <li><strong>6.</strong> Принимаем: IDR/MYR/VND/RUB/EUR/USDT</li>
             </ol>
             <ol lang="en" style="display:none;">
-              <li><strong>1.</strong> Write us on Telegram: <strong><a href="https://t.me/evisa_support" style="color:#3b82f6;">@evisa_support</a></strong></li>
-              <li><strong>2.</strong> Send passport photo, selfie and planned arrival date</li>
-              <li><strong>3.</strong> We make return ticket booking</li>
-              <li><strong>4.</strong> You pay, and we process everything — visa comes online in 1-2 hours</li>
-              <li><strong>5.</strong> We accept: IDR/MYR/VND/RUB/EUR/USDT</li>
+              <li><strong>1.</strong> Message us on Telegram: <strong><a href="https://t.me/evisa_support" style="color:#0891b2;">@evisa_support</a></strong></li>
+              <li><strong>2.</strong> Send passport photo, selfie and payment</li>
+              <li><strong>3.</strong> Within 2 business days we schedule biometrics</li>
+              <li><strong>4.</strong> Give fingerprints & photo at immigration</li>
+              <li><strong>5.</strong> No extra payment at immigration — all fees prepaid</li>
+              <li><strong>6.</strong> Accepted: IDR/MYR/VND/RUB/EUR/USDT</li>
             </ol>
           </div>
         </div>
@@ -173,16 +175,16 @@
           </h3>
           <div class="step-content">
             <div lang="ru">
-              <p><strong>— Можно ли пройти автогейт?</strong> Да, если виза оформлена заранее — никаких очередей</p>
-              <p><strong>— Не купил билет?</strong> Мы сделаем реальную бронь билета, её достаточно для прохождения пограничного контроля</p>
+              <p><strong>— Не хочешь делать визаран?</strong> Не надо — продлим онлайн</p>
+              <p><strong>— А вдруг обман?</strong> Уже 4000+ клиентов продлили визу через нас. Есть отзывы и кейсы</p>
               <p><strong>— Мы официальное агентство</strong>, все документы проходят проверку в миграционной службе</p>
-              <p><strong>— Боишься не успеть получить визу?</strong> Мы оформляем за 1 час и даём чёткие инструкции.</p>
+              <p><strong>— Боишься просрочить?</strong> Мы берём все риски на себя и гарантируем продление вовремя</p>
             </div>
             <div lang="en" style="display:none;">
-              <p><strong>— Can I use autogate?</strong> Yes, if visa is processed in advance — no queues</p>
-              <p><strong>— Didn't buy a ticket?</strong> We'll make a real ticket booking, it's enough for border control passage</p>
-              <p><strong>— We are an official agency</strong>, all documents pass immigration service verification</p>
-              <p><strong>— Afraid not to get visa in time?</strong> We process in 1 hour and give clear instructions.</p>
+              <p><strong>— Don’t want a visa‑run?</strong> No need — we renew online</p>
+              <p><strong>— Worried about scams?</strong> 4000+ clients have already extended with us. We have reviews & cases</p>
+              <p><strong>— We are an official agency</strong>; paperwork is verified by immigration</p>
+              <p><strong>— Afraid to overstay?</strong> We take all risks and guarantee on‑time extension</p>
             </div>
           </div>
         </div>
@@ -196,10 +198,10 @@
           </h3>
           <div class="step-content">
             <p lang="ru">
-              Уже больше 4000 человек прошли через автогейт с нашей визой и забыли про очереди. Пиши нам сейчас — и твой отпуск начнётся без нервов уже в аэропорту. Оформи B1 заранее и почувствуй себя VIP — быстрый проход, никаких вопросов, только удовольствие.
+              Больше 4000 человек уже оформили B1 через нас — без штрафов, очередей и вылетов. Останься на Бали легально и спокойно. Просто напиши нам — и забудь о визовых проблемах.
             </p>
             <p lang="en" style="display:none">
-              More than 4000 people have already passed through autogate with our visa and forgot about queues. Write us now — and your vacation will start without nerves right at the airport. Get B1 in advance and feel like VIP — fast passage, no questions, only pleasure.
+              Over 4000 people have renewed their B1 with us — no fines, queues or flights. Stay in Bali legally and relaxed. Message us now and forget visa hassles.
             </p>
           </div>
         </div>
@@ -209,9 +211,9 @@
     <!-- Final CTA -->
     <section class="final-cta">
       <div class="final-cta-content">
-        <h2 style="font-size:2rem;margin-bottom:1rem;">
-          <span lang="ru">Готовы оформить визу?</span>
-          <span lang="en" style="display:none;">Ready to Apply for Visa?</span>
+        <h2 style="font-size:2rem;margin-bottom:1rem;color:#0891b2;">
+          <span lang="ru">Готовы продлить визу?</span>
+          <span lang="en" style="display:none;">Ready to Extend Visa?</span>
         </h2>
         <p style="margin-bottom:2rem;opacity:.9;">
           <span lang="ru">Присоединяйтесь к тысячам довольных клиентов</span>
@@ -236,8 +238,8 @@
 
       <div class="lead-form-header">
         <h3 class="lead-form-title">
-          <span lang="ru">Получить консультацию по визе B1</span>
-          <span lang="en" style="display:none;">Get B1 Visa Consultation</span>
+          <span lang="ru">Получить консультацию по продлению B1</span>
+          <span lang="en" style="display:none;">Get B1 Extension Consultation</span>
         </h3>
         <p class="lead-form-subtitle">
           <span lang="ru">Оставьте контакты и мы свяжемся с вами в течение 15 минут</span>
@@ -288,8 +290,8 @@
           <span lang="en" style="display:none;">Request Sent!</span>
         </h4>
         <p class="success-message">
-          <span lang="ru">Мы свяжемся с вами в течение 15 минут для консультации по визе B1</span>
-          <span lang="en" style="display:none;">We'll contact you within 15 minutes for B1 visa consultation</span>
+          <span lang="ru">Мы свяжемся с вами в течение 15 минут</span>
+          <span lang="en" style="display:none;">We'll contact you within 15 minutes</span>
         </p>
         <div class="success-buttons">
           <a href="https://t.me/evisa_support" target="_blank" class="success-btn success-btn-telegram">
