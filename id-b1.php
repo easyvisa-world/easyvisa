@@ -7,23 +7,19 @@
   <meta name="description" content="Оформите или продлите визу B1 на Бали всего за $59. Бесплатная бронь обратного билета, оформление онлайн за 1 час, поддержка 24/7.">
   <link rel="icon" type="image/png" href="/logo-visa.png">
   <meta property="og:type" content="website">
-  <meta property="og:url" content="https://easyvisa.world/b1">
+  <meta property="og:url" content="https://easyvisa.world/">
   <meta property="og:title" content="Виза B1 на Бали — EasyVisa | Оформление и продление за 1 час">
   <meta property="og:description" content="Оформите или продлите визу B1 на Бали всего за $59. Бесплатная бронь обратного билета, оформление онлайн за 1 час, поддержка 24/7.">
-  <meta property="og:image" content="https://easyvisa.world/wp-content/uploads/2023/12/logo2.svg_.svg">
+  <meta property="og:image" content="https://easyvisa.world/img/logo.svg">
   <meta property="og:site_name" content="EasyVisa">
   <meta name="twitter:card" content="summary_large_image">
   <meta name="twitter:title" content="Виза B1 на Бали — EasyVisa | Оформление и продление за 1 час">
   <meta name="twitter:description" content="Оформите или продлите визу B1 на Бали всего за $59. Бесплатная бронь обратного билета, оформление онлайн за 1 час, поддержка 24/7.">
-  <meta name="twitter:image" content="https://easyvisa.world/wp-content/uploads/2023/12/logo2.svg_.svg">
+  <meta name="twitter:image" content="https://easyvisa.world/img/logo.svg">
   <link rel="stylesheet" href="/include/style_add.css">
-
-
 </head>
-
 <body>
   <?php include($_SERVER['DOCUMENT_ROOT']."/include/header.php"); ?>
-
   <main>
   <div class="service-container">
     <!-- Hero Section -->
@@ -33,14 +29,11 @@
           <span lang="ru">Виза B1 (E-VOA) — 30 дней на Бали</span>
           <span lang="en" style="display: none;">B1 Visa (E-VOA) — 30 Days in Bali</span>
         </h1>
-
         <p class="hero-subtitle">
           <span lang="ru">Оформление онлайн за 1–2 часа. Быстрое прохождение контроля без вопросов. Продление доступно без выезда.</span>
           <span lang="en" style="display: none;">Online processing in 1–2 hours. Fast border control without questions. Extension available without exit.</span>
         </p>
-
         <div class="price-badge">$59 USD</div>
-
         <div class="cta-buttons">
           <a href="https://t.me/evisa_support" target="_blank" class="btn btn-primary">
             <svg width="20" height="20" fill="currentColor" viewBox="0 0 24 24">
@@ -57,7 +50,6 @@
         </div>
       </div>
     </section>
-
     <!-- Steps Section -->
     <section class="steps-section">
       <h2 class="section-title">
@@ -297,10 +289,7 @@
     </div>
   </div>
   </main>
-
   <?php include($_SERVER['DOCUMENT_ROOT']."/include/footer.php"); ?>
   <script src="/js/app_add.js" defer></script>
-  
-
 </body>
 </html>
