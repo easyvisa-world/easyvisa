@@ -1,0 +1,1156 @@
+/* Подключи оба шрифта в head:
+<link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Russo+One&display=swap&subset=cyrillic" rel="stylesheet">
+*/
+/* Общие стили */
+* {
+  box-sizing: border-box;
+}
+
+/* Единый фон для всех страниц */
+html, body {
+  background: linear-gradient(120deg, #151f2b 75%, #283754 100%) !important;
+  min-height: 100vh;
+}
+
+html::before, body::before {
+  content: '';
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(120deg, #151f2b 75%, #283754 100%) !important;
+  z-index: -2;
+}
+.main-header-container-all-page {
+  max-width: 1180px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 16px;
+  padding-right: 16px;
+  width: 100%;
+  box-sizing: border-box;
+  position: relative;
+}
+
+/* Ensure all content respects container padding */
+.main-header-container-all-page > * {
+  margin-left: 0;
+  margin-right: 0;
+}
+
+/* Prevent full-width elements from breaking out of container except footer */
+.main-header-container-all-page .ev-faq-container,
+.main-header-container-all-page .ev-calculator,
+.main-header-container-all-page .ev-date-calc {
+  margin-left: 0;
+  margin-right: 0;
+  max-width: 100%;
+}
+
+/* Footer should break out of container to span full width */
+.main-header-container-all-page .gta-footer {
+  position: relative;
+  width: 100vw;
+  left: 50%;
+  right: 50%;
+  margin-left: -50vw;
+  margin-right: -50vw;
+  max-width: none;
+}
+.ev-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 1.5rem;
+  position: relative;
+}
+
+
+
+.ev-header-left {
+  display: flex;
+  align-items: center;
+  gap: 1.5rem;
+}
+.header-container {
+  max-width: 1180px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 16px;
+  padding-right: 16px;
+  width: 100%;
+  box-sizing: border-box;
+  position: relative;
+}
+/* Header */
+.gta-header {
+  background: linear-gradient(135deg, #0c0c15 0%, #1a1f2e 50%, #0f1419 100%);
+  backdrop-filter: blur(20px);
+  border-bottom: 3px solid var(--gta-primary);
+  position: relative;
+  z-index: 999;
+  padding: 1rem 0;
+  box-shadow: 
+    0 0 30px rgba(41, 252, 148, 0.3),
+    0 4px 20px rgba(0, 0, 0, 0.5);
+  width: 100%;
+  margin: 0;
+}
+:root {
+  --bg-main: #0c0c15;
+  --bg-footer: #0b0f19;
+  --neon: #00ffcc;
+  --radius: 18px;
+  --border: 2px;
+}
+
+body {
+  font-family: 'Inter', 'Roboto', Arial, Helvetica, sans-serif !important;
+  color: #fff !important;
+  margin: 0;
+  padding: 0;
+  position: relative;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+main {
+  flex: 1;
+  padding-top: 80px;
+}
+
+body::before {
+  content: '';
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: radial-gradient(circle at 20% 80%, rgba(41, 252, 148, 0.03) 0%, transparent 50%),
+              radial-gradient(circle at 80% 20%, rgba(255, 233, 93, 0.02) 0%, transparent 50%);
+  pointer-events: none;
+  z-index: -1;
+}
+
+.gta-header,
+.gta-header *,
+.gta-menu-bar button,
+.gta-menu-bar a,
+.gta-menu-bar div,
+.gta-menu-bar span,
+.gta-menu-bar svg,
+.side-main a,
+.footer-nav a {
+  font-family: 'Bebas Neue', 'Russo One', 'Arial Narrow', Arial, sans-serif !important;
+  letter-spacing: 0.03em !important;
+  font-weight: 400 !important;
+}
+
+.gta-header {
+  position: fixed !important;
+  top: 0 !important;
+  left: 0 !important;
+  width: 100% !important;
+  z-index: 1000 !important;
+  background: rgba(12, 12, 21, 0.95) !important;
+  backdrop-filter: blur(20px) !important;
+  border-bottom: 1px solid rgba(41, 252, 148, 0.2) !important;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.3) !important;
+}
+
+body {
+  padding-top: 100px !important;
+  margin-top: 0 !important;
+}
+
+main {
+  padding-top: 0 !important;
+}
+
+.main-header-container-all-page {
+  padding-top: 0 !important;
+}
+
+@media (max-width: 768px) {
+  body {
+    padding-top: 90px !important;
+  }
+}
+.header-row {
+  width: 100%;
+  height: 56px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.gta-logo {
+  height: 45px;
+  width: auto;
+  filter: drop-shadow(0 0 15px rgba(41, 252, 148, 0.6));
+  transition: all 0.3s ease;
+}
+
+.gta-logo:hover {
+  filter: drop-shadow(0 0 25px rgba(255, 233, 93, 0.8));
+  transform: scale(1.05);
+}
+
+.burger {
+  display: flex;
+  flex-direction: column;
+  width: 32px;
+  height: 26px;
+  background: transparent;
+  border: 2px solid var(--gta-primary);
+  border-radius: 8px;
+  cursor: pointer;
+  padding: 4px;
+  gap: 3px;
+  transition: all 0.3s ease;
+  position: relative;
+  overflow: hidden;
+}
+
+
+
+.burger:hover {
+  border-color: var(--gta-secondary);
+  box-shadow: 0 0 15px rgba(41, 252, 148, 0.5);
+}
+
+.burger span {
+  width: 100%;
+  height: 2px;
+  background: var(--gta-primary);
+  border-radius: 2px;
+  transition: all 0.3s ease;
+  box-shadow: 0 0 5px rgba(41, 252, 148, 0.5);
+}
+
+.gta-menu-bar {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 8px;
+  position: relative;
+  z-index: 1002;
+}
+.gta-menu-bar button {
+  background: transparent;
+  border: var(--border) solid var(--neon);
+  border-radius: var(--radius);
+  color: #fff;
+  padding: 4px 14px;
+  font-size: 20px;
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+  line-height: 1;
+  min-height: 34px;
+  min-width: 44px;
+  position: relative;
+  transition: background .15s, border .15s;
+  z-index: 1002;
+  text-shadow: 0 1px 4px #00ffc955, 0 0px 0px #fff6;
+  pointer-events: auto;
+}
+.gta-menu-bar button:hover, .gta-menu-bar button:focus {
+  background: rgba(0,255,204,0.09);
+  border-color: #29fc94;
+}
+.country-flag {
+  height: 16px;
+  margin-right: 8px;
+  flex-shrink: 0;
+  border-radius: 2px;
+}
+.gta-menu-bar svg { margin-left: 7px; }
+.gta-country-btn svg,
+.gta-visa-btn svg,
+.gta-biz-btn svg,
+.gta-lang-btn svg,
+.gta-currency-btn svg { margin-left: 7px; }
+
+.gta-country-drop, .gta-visa-drop, .gta-biz-drop, .gta-lang-drop, .gta-foryou-drop {
+  position: relative;
+  display: inline-block;
+}
+
+/* GTA-дропдауны — шрифты и стили */
+.country-list, .visa-list, .biz-list, .lang-list, .foryou-list {
+  position: absolute;
+  top: calc(100% + 8px);
+  left: 0;
+  background: linear-gradient(135deg, #161824 85%, #262b40 100%);
+  border: var(--border) solid var(--neon);
+  border-radius: var(--radius);
+  padding: 8px 0;
+  display: none;
+  flex-direction: column;
+  min-width: 180px;
+  max-width: 320px;
+  width: max-content;
+  z-index: 1100;
+  box-shadow: 0 8px 25px rgba(0,255,204,0.2), 0 4px 15px rgba(0,0,0,0.3);
+  overflow: visible;
+  font-family: 'Bebas Neue', 'Russo One', 'Arial Narrow', Arial, sans-serif !important;
+  letter-spacing: 0.01em;
+  white-space: nowrap;
+}
+
+/* Мобильная адаптация */
+@media (max-width: 768px) {
+  .country-list, .visa-list, .biz-list, .lang-list, .foryou-list {
+    min-width: calc(100vw - 40px) !important;
+    max-width: calc(100vw - 40px) !important;
+    width: calc(100vw - 40px) !important;
+    left: 20px !important;
+    right: 20px !important;
+    transform: none !important;
+    position: fixed !important;
+    top: auto !important;
+    bottom: auto !important;
+    z-index: 1200 !important;
+    border: 2px solid var(--neon) !important;
+    box-shadow: 0 8px 25px rgba(0,255,204,0.3), 0 4px 15px rgba(0,0,0,0.4) !important;
+  }
+
+  /* На мобильных все меню позиционируются по центру экрана и внутри viewport */
+  .gta-country-drop .country-list,
+  .gta-visa-drop .visa-list,
+  .gta-biz-drop .biz-list,
+  .gta-lang-drop .lang-list,
+  .gta-foryou-drop .foryou-list {
+    left: 20px !important;
+    right: 20px !important;
+    width: calc(100vw - 40px) !important;
+    max-width: calc(100vw - 40px) !important;
+    min-width: calc(100vw - 40px) !important;
+    transform: none !important;
+    position: fixed !important;
+    margin: 0 !important;
+  }
+
+  /* Убираем специальное позиционирование для последних кнопок на мобильных */
+  .gta-lang-drop .lang-list,
+  .gta-foryou-drop .foryou-list,
+  .gta-biz-drop .biz-list {
+    left: 50% !important;
+    right: auto !important;
+    transform: translateX(-50%) !important;
+  }
+}
+
+/* Пункты GTA-меню — для любых div/a внутри */
+.country-list > div, .country-list > a,
+.visa-list > div, .visa-list > a,
+.biz-list > div, .biz-list > a,
+.lang-list > div, .lang-list > a,
+.foryou-list > div, .foryou-list > a {
+  font-family: 'Bebas Neue', 'Russo One', 'Arial Narrow', Arial, sans-serif !important;
+  font-size: 19px !important;
+  color: #fff !important;
+  padding: 12px 18px 10px 16px !important;
+  border-radius: 10px !important;
+  margin: 0 4px 4px 4px !important;
+  background: rgba(0,255,204,0.09) !important;
+  transition: background .16s, color .14s, box-shadow .18s !important;
+  font-weight: 400 !important;
+  text-decoration: none !important;
+  text-shadow: 0 1px 4px #00ffc990, 0 0px 0px #fff8 !important;
+  box-shadow: none !important;
+  letter-spacing: 0.015em !important;
+  white-space: nowrap;
+  display: flex !important;
+  align-items: center !important;
+  justify-content: flex-start !important;
+  line-height: 1.2 !important;
+}
+
+/* Специально для флагов в выпадающих списках */
+.country-list .country-flag,
+.side-country-list .country-flag {
+  height: 16px !important;
+  width: auto !important;
+  margin-right: 8px !important;
+  margin-left: 0 !important;
+  flex-shrink: 0 !important;
+  align-self: center !important;
+}
+.country-list > div:hover, .country-list > a:hover,
+.visa-list > div:hover, .visa-list > a:hover,
+.biz-list > div:hover, .biz-list > a:hover,
+.lang-list > div:hover, .lang-list > a:hover,
+.foryou-list > div:hover, .foryou-list > a:hover {
+  background: rgba(0,255,204,0.13) !important;
+  color: #29fc94 !important;
+  box-shadow: 0 2px 12px 0 #00ffcc55 !important;
+}
+
+.show { display: flex !important; }
+
+.gta-side-menu {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 280px;
+  height: 100vh;
+  background: linear-gradient(145deg, rgba(12, 12, 21, 0.98), rgba(26, 31, 46, 0.95));
+  backdrop-filter: blur(20px);
+  border-right: 2px solid rgba(41, 252, 148, 0.3);
+  z-index: 1001;
+  transition: transform 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+  overflow-y: auto;
+  overflow-x: hidden;
+  padding: 20px;
+  box-shadow: 4px 0 20px rgba(0, 0, 0, 0.5);
+  transform: translateX(-100%);
+  contain: layout;
+}
+
+.gta-side-menu.active {
+  transform: translateX(0);
+}
+
+
+.gta-side-menu-overlay {
+  position: fixed;
+  top: 0; left: 0;
+  width: 100%; height: 100%;
+  background: rgba(0,0,0,0.6);
+  z-index: 1000;
+  display: none;
+  transition: opacity .2s;
+}
+.side-menu-close {
+  position: absolute;
+  top: 13px; right: 13px;
+  background: none;
+  border: none;
+  color: #fff;
+  font-size: 28px;
+  cursor: pointer;
+  line-height: 1;
+  padding: 0;
+}
+.side-logo {
+  width: 100%;
+  height: 60px; /* или по твоему макету */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  /* Можно добавить маргин для доп. смещения вниз */
+  margin-bottom: 18px;
+}
+.side-main {
+  list-style: none;
+  margin-top: 38px;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  padding: 0;
+}
+.side-main a {
+  color: #fff;
+  text-decoration: none;
+  font-size: 18px;
+  padding: 10px 18px;
+  border-radius: 12px;
+  transition: background .12s, color .12s;
+  display: block;
+  font-weight: 500;
+  background: none;
+  font-family: 'Bebas Neue', 'Russo One', 'Arial Narrow', Arial, sans-serif !important;
+  letter-spacing: 0.02em;
+}
+.side-main a.active, .side-main a:focus, .side-main a:hover {
+  background: rgba(0,255,204,0.13);
+  color: #29fc94;
+}
+
+
+
+/* Modern FAQ Styles */
+.ev-faq-container {
+  background: linear-gradient(145deg, rgba(12, 12, 21, 0.8), rgba(26, 31, 46, 0.6));
+  backdrop-filter: blur(20px);
+  border: 2px solid rgba(41, 252, 148, 0.3);
+  border-radius: 24px;
+  padding: 2rem;
+  margin: 2rem 0;
+  box-shadow: 0 0 30px rgba(41, 252, 148, 0.2);
+}
+
+.ev-faq-title {
+  font-family: 'Bebas Neue', Arial, sans-serif;
+  font-size: 2.5rem;
+  color: var(--gta-secondary);
+  text-align: center;
+  margin-bottom: 2rem;
+  text-shadow: 0 0 20px var(--gta-secondary);
+  letter-spacing: 0.05em;
+}
+
+.ev-faq-item {
+  border: 1px solid rgba(41, 252, 148, 0.2);
+  border-radius: 16px;
+  margin-bottom: 1rem;
+  overflow: hidden;
+  background: rgba(255, 255, 255, 0.03);
+  transition: all 0.3s ease;
+}
+
+.ev-faq-item:hover {
+  border-color: rgba(41, 252, 148, 0.4);
+  box-shadow: 0 4px 20px rgba(41, 252, 148, 0.1);
+}
+
+.ev-faq-question {
+  width: 100%;
+  padding: 1.5rem;
+  background: transparent;
+  border: none;
+  color: white;
+  font-family: 'Russo One', Arial, sans-serif;
+  font-size: 1.1rem;
+  text-align: left;
+  cursor: pointer;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  transition: all 0.3s ease;
+}
+
+.ev-faq-question:hover {
+  color: var(--gta-secondary);
+}
+
+.ev-faq-icon {
+  font-size: 1.5rem;
+  color: var(--gta-primary);
+  transition: transform 0.3s ease;
+}
+
+.ev-faq-item.active .ev-faq-icon {
+  transform: rotate(45deg);
+  color: var(--gta-secondary);
+}
+
+.ev-faq-answer {
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.4s ease, padding 0.4s ease;
+  background: rgba(41, 252, 148, 0.05);
+}
+
+.ev-faq-item.active .ev-faq-answer {
+  max-height: 200px;
+  padding: 1.5rem;
+}
+
+.ev-faq-answer p {
+  margin: 0;
+  color: rgba(255, 255, 255, 0.9);
+  font-family: 'Russo One', Arial, sans-serif;
+  line-height: 1.6;
+}
+
+/* Modern Calculator Styles */
+.ev-calculator {
+  background: linear-gradient(145deg, rgba(12, 12, 21, 0.8), rgba(26, 31, 46, 0.6));
+  backdrop-filter: blur(20px);
+  border: 2px solid rgba(41, 252, 148, 0.3);
+  border-radius: 24px;
+  padding: 2rem;
+  margin: 2rem 0;
+  box-shadow: 0 0 30px rgba(41, 252, 148, 0.2);
+}
+
+.ev-calc-title {
+  font-family: 'Bebas Neue', Arial, sans-serif;
+  font-size: 2.5rem;
+  color: var(--gta-secondary);
+  text-align: center;
+  margin-bottom: 2rem;
+  text-shadow: 0 0 20px var(--gta-secondary);
+  letter-spacing: 0.05em;
+}
+
+.ev-calc-form {
+  display: grid;
+  gap: 1.5rem;
+}
+
+.ev-calc-group {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.ev-calc-label {
+  font-family: 'Russo One', Arial, sans-serif;
+  color: var(--gta-primary);
+  font-size: 1rem;
+  font-weight: 500;
+}
+
+.ev-calc-input, .ev-calc-select {
+  background: rgba(255, 255, 255, 0.1);
+  border: 2px solid rgba(41, 252, 148, 0.3);
+  border-radius: 12px;
+  padding: 1rem;
+  color: white;
+  font-family: 'Russo One', Arial, sans-serif;
+  font-size: 1rem;
+  transition: all 0.3s ease;
+  backdrop-filter: blur(10px);
+}
+
+.ev-calc-input:focus, .ev-calc-select:focus {
+  outline: none;
+  border-color: var(--gta-secondary);
+  box-shadow: 0 0 20px rgba(255, 233, 93, 0.3);
+}
+
+.ev-calc-input::placeholder {
+  color: rgba(255, 255, 255, 0.5);
+}
+
+.ev-calc-button {
+  background: linear-gradient(145deg, var(--gta-primary), var(--gta-secondary));
+  border: none;
+  border-radius: 16px;
+  padding: 1.25rem 2rem;
+  color: #0c0c15;
+  font-family: 'Bebas Neue', Arial, sans-serif;
+  font-size: 1.3rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  letter-spacing: 0.05em;
+  margin-top: 1rem;
+}
+
+.ev-calc-button:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 12px 35px rgba(41, 252, 148, 0.4);
+}
+
+.ev-calc-result {
+  background: rgba(41, 252, 148, 0.1);
+  border: 2px solid var(--gta-primary);
+  border-radius: 16px;
+  padding: 1.5rem;
+  margin-top: 1.5rem;
+  text-align: center;
+  display: none;
+}
+
+.ev-calc-result.show {
+  display: block;
+}
+
+.ev-calc-result h3 {
+  font-family: 'Bebas Neue', Arial, sans-serif;
+  color: var(--gta-secondary);
+  font-size: 1.8rem;
+  margin-bottom: 1rem;
+  text-shadow: 0 0 15px var(--gta-secondary);
+}
+
+.ev-calc-result p {
+  font-family: 'Russo One', Arial, sans-serif;
+  color: white;
+  margin: 0.5rem 0;
+  font-size: 1.1rem;
+}
+
+/* Modern Date Calculator */
+.ev-date-calc {
+  background: linear-gradient(145deg, rgba(12, 12, 21, 0.8), rgba(26, 31, 46, 0.6));
+  backdrop-filter: blur(20px);
+  border: 2px solid rgba(41, 252, 148, 0.3);
+  border-radius: 24px;
+  padding: 2rem;
+  margin: 2rem 0;
+  box-shadow: 0 0 30px rgba(41, 252, 148, 0.2);
+}
+
+@media (max-width: 768px) {
+  .ev-contact-buttons {
+    max-width: 100%;
+  }
+
+  .ev-faq-container,
+  .ev-calculator,
+  .ev-date-calc {
+    padding: 1rem;
+    margin: 1rem 0;
+  }
+
+  .ev-faq-title,
+  .ev-calc-title {
+    font-size: 2rem;
+  }
+}
+
+/* Footer */
+.gta-footer {
+  background: linear-gradient(135deg, #0c0c15 0%, #1a1f2e 50%, #0f1419 100%);
+  backdrop-filter: blur(20px);
+  border-top: 3px solid var(--gta-primary);
+  padding: 2rem 0;
+  margin-top: 2rem;
+  color: white;
+  box-shadow: 
+    0 0 30px rgba(41, 252, 148, 0.3),
+    0 -4px 20px rgba(0, 0, 0, 0.5);
+  position: relative;
+  width: 100vw;
+  left: 50%;
+  right: 50%;
+  margin-left: -50vw;
+  margin-right: -50vw;
+}
+
+
+
+.footer-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 2rem;
+  position: relative;
+}
+.footer-nav a {
+  color: rgba(255, 255, 255, 0.8);
+  text-decoration: none;
+  margin-left: 2rem;
+  font-family: 'Russo One', Arial, sans-serif;
+  font-size: 0.9rem;
+  transition: all 0.3s ease;
+  padding: 0.5rem 1rem;
+  border-radius: 8px;
+  position: relative;
+  overflow: hidden;
+}
+
+
+
+.footer-nav a:hover {
+  color: #29fc94;
+  text-shadow: 0 0 10px #29fc94;
+  background: rgba(41, 252, 148, 0.1);
+  border: 1px solid rgba(41, 252, 148, 0.3);
+}
+
+@media (max-width: 768px) {
+  .gta-menu-bar {
+    display: none !important;
+  }
+  .burger {
+    display: flex !important;
+  }
+  .header-row {
+    height: 56px !important;
+    padding: 0 1rem;
+  }
+  .gta-logo {
+    height: 35px;
+  }
+  .gta-side-menu {
+    width: 90%;
+    max-width: 320px;
+    padding: 15px;
+  }
+
+  body {
+    padding-top: 80px !important;
+  }
+
+  .hero-section {
+    margin-top: 0 !important;
+    padding-top: 1rem !important;
+  }
+  .side-menu-top-btns {
+    gap: 6px;
+  }
+  .side-country-btn, .side-visa-btn {
+    font-size: 17px;
+    padding: 6px 12px;
+  }
+
+  .gta-footer {
+    margin-top: 1rem;
+    padding: 1.5rem 0;
+  }
+
+  .footer-row {
+    flex-direction: column;
+    gap: 1.5rem;
+    text-align: center;
+    padding: 0 1rem;
+  }
+
+  .footer-nav {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    width: 100%;
+  }
+
+  .footer-nav a {
+    margin-left: 0;
+    padding: 0.8rem 1rem;
+    display: block;
+    text-align: center;
+    border-radius: 12px;
+    border: 1px solid rgba(41, 252, 148, 0.2);
+    background: rgba(41, 252, 148, 0.05);
+  }
+}
+
+@media (min-width: 769px) and (max-width: 1023px) {
+  .gta-menu-bar {
+    display: none !important;
+  }
+  .burger {
+    display: flex !important;
+  }
+  .header-row {
+    height: 56px !important;
+  }
+}
+
+@media (min-width: 1024px) {
+  .burger {
+    display: flex !important;
+  }
+  .header-row {
+    height: 56px !important;
+  }
+  .gta-menu-bar {
+    display: flex !important;
+  }
+  .gta-menu-bar button {
+    font-size: 19px !important;
+    padding: 4px 14px !important;
+    min-height: 32px;
+    min-width: 44px;
+  }
+
+  /* Убедимся что дропдауны правильно позиционированы на десктопе */
+  .country-list, .visa-list, .biz-list, .lang-list, .foryou-list {
+    min-width: 200px;
+    max-width: 280px;
+  }
+
+  /* Последние 2 кнопки (язык и для вас) выпадают справа */
+  .gta-lang-drop .lang-list,
+  .gta-foryou-drop .foryou-list {
+    left: auto;
+    right: 0;
+    transform: none;
+  }
+
+  /* Бизнес меню тоже может выходить за экран */
+  .gta-biz-drop .biz-list {
+    left: auto;
+    right: 0;
+    transform: none;
+  }
+}
+/* Только для меню, выпадающих, шапки, бургер-меню и футера */
+.gta-header, .gta-header *, 
+.gta-menu-bar button, .gta-menu-bar a, .gta-menu-bar div, .gta-menu-bar span, .gta-menu-bar svg,
+.gta-country-drop *, .gta-visa-drop *, .gta-biz-drop *, .gta-lang-drop *, .gta-foryou-drop *,
+.country-list, .country-list > *, 
+.visa-list, .visa-list > *, 
+.biz-list, .biz-list > *, 
+.lang-list, .lang-list > *, 
+.foryou-list, .foryou-list > *,
+.gta-side-menu, .gta-side-menu *, 
+.gta-footer, .gta-footer *, 
+.footer-nav a, .side-main a {
+  font-family: 'Bebas Neue', 'Russo One', 'Arial Narrow', Arial, sans-serif !important;
+  letter-spacing: 0.03em !important;
+  font-weight: 400 !important;
+}
+
+/* Если где-то menu делается через id */
+#side-menu, #side-menu * {
+  font-family: 'Bebas Neue', 'Russo One', 'Arial Narrow', Arial, sans-serif !important;
+}
+.gta-header, .gta-header *, 
+.gta-menu-bar, .gta-menu-bar *, 
+.gta-country-drop *, .gta-visa-drop *, .gta-biz-drop *, .gta-lang-drop *, .gta-foryou-drop *,
+.country-list, .country-list > *, 
+.visa-list, .visa-list > *, 
+.biz-list, .biz-list > *, 
+.lang-list, .lang-list > *, 
+.foryou-list, .foryou-list > *, 
+.gta-side-menu, .gta-side-menu *, 
+.gta-footer, .gta-footer *, 
+.footer-nav a, .side-main a {
+  font-family: 'Bebas Neue', 'Russo One', 'Arial Narrow', Arial, sans-serif !important;
+}
+
+.gta-side-menu .submenu {
+  margin-bottom: 8px;
+}
+.gta-side-menu .submenu-toggle {
+  font-size: 20px;
+  color: #fff;
+  padding: 8px 14px;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+  transition: background .14s;
+  font-family: 'Bebas Neue', 'Russo One', 'Arial Narrow', Arial, sans-serif !important;
+}
+.gta-side-menu .submenu-toggle:hover {
+  background: rgba(0,255,204,0.10);
+}
+.gta-side-menu .submenu-list {
+  display: none;
+  flex-direction: column;
+  margin-left: 10px;
+  padding-left: 12px;
+  border-left: 2px solid #00ffcc30;
+  margin-top: 2px;
+}
+.gta-side-menu .submenu.open .submenu-list {
+  display: flex;
+}
+.gta-side-menu .submenu-list a {
+  font-size: 18px;
+  color: #29fc94;
+  padding: 7px 0 7px 8px;
+  font-family: 'Bebas Neue', 'Russo One', 'Arial Narrow', Arial, sans-serif !important;
+  border-radius: 7px;
+  text-decoration: none;
+  transition: background .12s, color .12s;
+}
+.gta-side-menu .submenu-list a:hover {
+  background: rgba(0,255,204,0.09);
+  color: #fff;
+}
+
+.side-country-btn,
+.side-visa-btn {
+  width: auto !important;       /* Убираем ширину */
+  display: inline-flex !important;  /* Вместо flex или block */
+  align-items: center;
+  border-radius: 12px;
+  padding: 4px 14px 4px 10px;
+  font-size: 19px;
+  font-family: 'Bebas Neue', 'Russo One', 'Arial Narrow', Arial, sans-serif;
+  margin-bottom: 5px;
+  border: 2px solid var(--neon);
+  background: transparent;
+  color: #fff;
+  text-shadow: 0 1px 4px #00ffc955, 0 0px 0px #fff6;
+  box-sizing: border-box;
+  justify-content: flex-start;
+  cursor: pointer;
+  transition: background .14s, border .15s;
+}
+
+.side-menu-top-btns {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  margin-bottom: 14px;
+  align-items: flex-start; /* Важно — кнопки не растягиваются по ширине контейнера */
+}
+.side-menu-top-btns {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  margin-bottom: 14px;
+  align-items: center; /* центрирует все дочерние кнопки по горизонтали */
+  width: 100%;
+}
+.side-country-btn,
+.side-visa-btn {
+  display: inline-flex !important;
+  width: auto !important;
+  min-width: 0 !important;
+  align-items: center;
+  padding: 4px 14px 4px 10px;
+  margin-bottom: 5px;
+  /* остальной стиль — как раньше */
+}
+#side-current-flag { 
+  height: 18px; 
+  width: 27px;
+  margin-right: 8px; 
+  object-fit: cover;
+  border-radius: 6px;
+  background: rgba(255, 255, 255, 0.03);
+  backdrop-filter: blur(8px);
+  border: 1px solid rgba(41, 252, 148, 0.3);
+  box-shadow: 
+    0 2px 8px rgba(41, 252, 148, 0.1),
+    inset 0 1px 0 rgba(255, 255, 255, 0.1);
+  transition: all 0.3s ease;
+}
+
+.country-flag {
+  height: 18px;
+  width: 27px;
+  object-fit: cover;
+  border-radius: 6px;
+  background: rgba(255, 255, 255, 0.03);
+  backdrop-filter: blur(8px);
+  border: 1px solid rgba(41, 252, 148, 0.3);
+  box-shadow: 
+    0 2px 8px rgba(41, 252, 148, 0.1),
+    inset 0 1px 0 rgba(255, 255, 255, 0.1);
+  margin-right: 8px;
+  transition: all 0.3s ease;
+  position: relative;
+  overflow: hidden;
+}
+
+.country-flag::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: -100%;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(90deg, transparent, rgba(255, 255, 255, 0.3), transparent);
+  transition: left 0.5s ease;
+}
+
+.gta-menu-bar button:hover .country-flag,
+.side-country-btn:hover #side-current-flag {
+  border-color: rgba(255, 233, 93, 0.5);
+  box-shadow: 
+    0 4px 12px rgba(255, 233, 93, 0.2),
+    inset 0 1px 0 rgba(255, 255, 255, 0.2);
+}
+
+.gta-menu-bar button:hover .country-flag::before,
+.side-country-btn:hover #side-current-flag::before {
+  left: 100%;
+}
+.side-country-btn svg,
+.side-visa-btn svg { margin-left: 7px; }
+.side-country-btn:hover, .side-visa-btn:hover {
+  background: rgba(0,255,204,0.11);
+  border-color: #29fc94;
+}
+@media (max-width: 600px) {
+  .side-country-btn, .side-visa-btn {
+    font-size: 17px;
+    padding: 2px 8px 2px 6px;
+    border-radius: 10px;
+  }
+}
+.side-menu-top-btns {
+  display: flex;
+  flex-direction: column;
+  gap: 9px;
+  margin-bottom: 14px;
+  position: relative;
+  width: 100%;
+}
+.side-country-btn, .side-visa-btn {
+  width: 100%;
+  margin-bottom: 3px;
+  position: relative;
+  z-index: 1;
+}
+.side-country-list, .side-visa-list {
+  position: relative !important;
+  min-width: 0 !important;
+  box-shadow: 0 4px 15px rgba(0, 255, 204, 0.2) !important;
+  margin: 8px 0 12px 0 !important;
+  border-radius: 13px !important;
+  display: none;
+  background: linear-gradient(135deg, #161824 85%, #262b40 100%);
+  border: 2px solid #00ffcc;
+  padding: 8px 0;
+  z-index: 50;
+  width: 100%;
+  max-width: 100%;
+  left: 0 !important;
+  right: 0 !important;
+  top: auto !important;
+  bottom: auto !important;
+}
+.side-country-list.show, .side-visa-list.show {
+  display: flex !important;
+  flex-direction: column;
+}
+.side-country-list > div, .side-country-list > a,
+.side-visa-list > div, .side-visa-list > a {
+  padding: 10px 18px 9px 14px;
+  font-size: 18px;
+  color: #fff;
+  background: none;
+  border-radius: 8px;
+  font-family: 'Bebas Neue', 'Russo One', 'Arial Narrow', Arial, sans-serif !important;
+  cursor: pointer;
+  margin: 0 4px 4px 4px;
+  text-shadow: 0 1px 4px #00ffc990, 0 0px 0px #fff8;
+  display: flex !important;
+  align-items: center !important;
+  line-height: 1.2 !important;
+}
+.side-country-list > div:hover, .side-visa-list > div:hover,
+.side-country-list > a:hover, .side-visa-list > a:hover {
+  background: rgba(0,255,204,0.12);
+  color: #29fc94;
+}
+
+.gta-side-menu.active {
+  left: 0;
+  display: block;
+}
+
+.gta-side-menu-overlay.active {
+  display: block;
+}
+
+
+
+
+.gta-country-btn, .gta-visa-btn, .gta-biz-btn, .gta-lang-btn, .gta-foryou-btn {
+  background: transparent;
+  border: 2px solid var(--neon);
+  border-radius: 18px;
+  color: #fff;
+  padding: 8px 16px;
+  font-size: 18px;
+  font-family: 'Bebas Neue', 'Russo One', 'Arial Narrow', Arial, sans-serif !important;
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+  line-height: 1;
+  min-height: 36px;
+  position: relative;
+  transition: all 0.3s ease;
+  z-index: 1002;
+  text-shadow: 0 1px 4px rgba(0, 255, 204, 0.3);
+  letter-spacing: 0.02em;
+  font-weight: 400;
+  pointer-events: auto;
+}
+
+
+
+.gta-country-btn:hover, .gta-visa-btn:hover, .gta-biz-btn:hover, .gta-lang-btn:hover, .gta-foryou-btn:hover {
+  background: rgba(0, 255, 204, 0.1);
+  border-color: #29fc94;
+  color: #29fc94;
+  box-shadow: 0 0 15px rgba(0, 255, 204, 0.3);
+}
