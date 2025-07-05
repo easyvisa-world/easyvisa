@@ -1,0 +1,352 @@
+body {
+  font-family: 'Russo One', Arial, sans-serif;
+  color: #fff;
+  margin: 0;
+  min-height: 100vh;
+}
+.visa-bg-flag {
+  position: absolute;
+  inset: 0;
+  z-index: 0;
+  background-repeat: no-repeat;
+  background-size: 80% auto;
+  background-position: center 42%;
+  opacity: 0.11;
+  filter: grayscale(0.07) blur(0.4px);
+  pointer-events: none;
+  transition: background-image 0.4s;
+}
+.visa-container {
+  position: relative;
+  z-index: 2;
+  max-width: 540px;
+  margin: 44px auto 0 auto;
+  padding: 38px 22px 32px 22px;
+  background: rgba(20, 30, 40, 0.96);
+  border-radius: 2.2rem;
+  border: 3px solid #fff;
+  box-shadow: 0 8px 48px 8px #14b8a660, 0 0 0 3px #2cffd9 inset;
+  overflow: hidden;
+}
+.visa-header-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 1.7rem;
+}
+.visa-logo {
+  height: 44px;
+  border-radius: 10px;
+  box-shadow: 0 2px 10px #0ff3f99a;
+  background: #fff;
+}
+.visa-link-btn {
+  border-radius: 9999px;
+  background: linear-gradient(90deg, #29fc94 0%, #ffe95d 100%);
+  color: #222;
+  font-family: 'Russo One', Arial, sans-serif;
+  font-weight: 800;
+  font-size: 1.13rem;
+  padding: 0.8em 1.7em;
+  border: none;
+  margin-left: 10px;
+  transition: background 0.22s, color 0.13s, box-shadow 0.12s;
+  box-shadow: 0 0 18px #29fc9469;
+  text-shadow: 0 1px 6px #fff8;
+}
+.visa-link-btn:hover {
+  background: linear-gradient(90deg, #ffe95d 0%, #29fc94 100%);
+  color: #191c1f;
+  box-shadow: 0 0 24px #ffe95d55;
+}
+
+.country-flag {
+  height: 18px;
+  width: 27px;
+  object-fit: cover;
+  border-radius: 3px;
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  margin-right: 8px;
+}
+.visa-title {
+  font-family: 'Bebas Neue', 'Russo One', Arial, sans-serif;
+  font-size: 2.2rem;
+  color: #ffe95d;
+  text-shadow: 0 3px 24px #29fc94cc, 2px 2px 0 #000a;
+  letter-spacing: 0.045em;
+  margin-bottom: 1.7rem;
+  text-align: center;
+  text-transform: uppercase;
+  font-weight: 900;
+}
+@media (max-width: 600px) {
+  .visa-title { font-size: 1.3rem; }
+}
+.visa-form-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 1.4rem;
+  margin-bottom: 1.5rem;
+}
+@media (max-width: 750px) {
+  .visa-form-grid { grid-template-columns: 1fr; }
+}
+.visa-label {
+  color: #ffe95d;
+  font-family: 'Russo One', Arial, sans-serif;
+  text-shadow: 0 2px 8px #29fc9440;
+  font-size: 1.09rem;
+  margin-bottom: 0.32em;
+  letter-spacing: 0.03em;
+  display: block;
+}
+.visa-input, .visa-select-data {
+  width: 100%;
+  background: #232332;
+  color: #fff;
+  border: none;
+  border-radius: 13px;
+  font-size: 1.13rem;
+  padding: 0.98em 1.18em;
+  outline: none;
+  font-family: inherit;
+  box-shadow: 0 0 0 2px #29fc94;
+  margin-bottom: 0.12em;
+  appearance: none;
+  position: relative;
+  box-sizing: border-box;
+}
+.visa-select-data {
+  background-image: url('data:image/svg+xml;utf8,<svg fill="white" height="18" viewBox="0 0 24 24" width="18" xmlns="http://www.w3.org/2000/svg"><path d="M7 10l5 5 5-5z"/></svg>');
+  background-repeat: no-repeat;
+  background-position: right 0.8em center;
+  background-size: 1.3em;
+  cursor: pointer;
+}
+.visa-input:focus, .visa-select-data:focus {
+  box-shadow: 0 0 0 3px #ffe95d;
+  background: #191b22;
+}
+.visa-btn-row {
+  display: flex;
+  gap: 1.1rem;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin-bottom: 1.4rem;
+  margin-top: 1.5rem;
+}
+.visa-btn-data {
+  display: flex;
+  align-items: center;
+  gap: 0.38em;
+  font-family: 'Russo One', Arial, sans-serif;
+  font-size: 1.17rem;
+  text-shadow: 0 2px 12px #ffe95d33;
+  padding: 0.7em 2em;
+  border-radius: 1.2em;
+  border: none;
+  cursor: pointer;
+  font-weight: 800;
+  box-shadow: 0 0 10px #29fc9466;
+  transition: background 0.17s, color 0.11s, transform 0.13s;
+  background: linear-gradient(90deg,#29fc94 0%,#ffe95d 100%);
+  color: #15191c;
+  margin-bottom: 0.14em;
+}
+.visa-btn-data:active { transform: scale(0.97);}
+.visa-btn-data:hover {
+  background: linear-gradient(90deg,#ffe95d 0%,#29fc94 100%);
+  color: #15191c;
+  box-shadow: 0 0 22px #ffe95d55;
+}
+.visa-btn.tg {
+  background: linear-gradient(90deg,#3dd6f9 0%,#5e72eb 100%);
+  color: #fff;
+  box-shadow: 0 0 10px #3dd6f988;
+  font-family: 'Russo One', Arial, sans-serif;
+}
+.visa-btn.tg:hover {
+  background: linear-gradient(90deg,#5e72eb 0%,#3dd6f9 100%);
+  color: #fff;
+}
+.visa-result-block {
+  margin-top: 1.1rem;
+  background: #181b2d;
+  border-radius: 16px;
+  padding: 1.2rem 1.1rem 1.7rem 1.1rem;
+  box-shadow: 0 0 11px #29fc9444;
+  text-align: center;
+  border: 2.5px solid #29fc94;
+}
+.visa-result-label {
+  color: #ffe95d;
+  font-family: 'Russo One', Arial, sans-serif;
+  letter-spacing: 0.03em;
+  font-size: 1.17rem;
+  text-shadow: 0 2px 7px #29fc9440;
+  margin-bottom: 0.4em;
+  text-transform: uppercase;
+  font-weight: 900;
+}
+.visa-result-date {
+  color: #29fc94;
+  font-size: 2.08rem;
+  font-family: 'Bebas Neue', Arial, sans-serif;
+  text-shadow: 0 2px 20px #ffe95d44;
+  margin-top: 0.29em;
+  letter-spacing: 0.04em;
+  font-weight: 900;
+}
+.visa-hint {
+  color: #29fc94;
+  background: #181b2d;
+  font-size: 1.09rem;
+  font-family: 'Russo One', Arial, sans-serif;
+  text-shadow: 0 2px 16px #29fc9444;
+  padding: 0.68em 0.9em;
+  border-radius: 13px;
+  text-align: center;
+  margin: 1.07em 0 1em 0;
+  box-shadow: 0 2px 8px #29fc9433;
+  letter-spacing: 0.01em;
+  font-weight: 700;
+  border: 2px solid #29fc94;
+  max-width: 96%;
+  margin-left: auto;
+  margin-right: auto;
+}
+.visa-error {
+  color: #ff36e6;
+  font-weight: 800;
+  text-align: center;
+  margin: 1rem 0 0.4rem 0;
+  text-shadow: 0 2px 8px #ff36e6b2;
+  font-family: 'Russo One', Arial, sans-serif;
+}
+.visa-footer {
+  margin: 2.1rem auto 1.1rem auto;
+  max-width: 540px;
+  text-align: center;
+  background: #13141d;
+  border-radius: 17px;
+  box-shadow: 0 0 14px #29fc9428;
+  padding: 1.23em 0.55em 1.1em 0.55em;
+}
+.visa-footer-text {
+  color: #fff;
+  font-size: 1.11rem;
+  font-family: 'Russo One', Arial, sans-serif;
+  text-shadow: 0 1px 10px #29fc9444;
+  margin-bottom: 0.8em;
+}
+.visa-footer-btns {
+  display: flex;
+  gap: 1.3rem;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin-top: 0.3em;
+}
+.visa-footer-btn {
+  display: flex;
+  align-items: center;
+  gap: 0.45em;
+  font-size: 1.05rem;
+  font-weight: 700;
+  padding: 0.66em 1.39em;
+  border-radius: 0.9em;
+  text-decoration: none;
+  background: linear-gradient(90deg,#29fc94 0%,#ffe95d 100%);
+  color: #191d2b;
+  box-shadow: 0 0 8px #29fc9433;
+  transition: background 0.11s, color 0.11s, transform 0.09s;
+  margin: 0.14em;
+  font-family: 'Russo One', Arial, sans-serif;
+}
+.visa-footer-btn:hover {
+  filter: brightness(1.13) saturate(1.18);
+  color: #fff;
+  background: linear-gradient(90deg,#ffe95d 0%,#29fc94 100%);
+  transform: scale(1.04);
+}
+.visa-footer-btn.tg { background: linear-gradient(90deg,#3dd6f9 0%,#5e72eb 100%);}
+.visa-footer-btn.wa { background: linear-gradient(90deg,#29fc94 0%,#ffe95d 100%);}
+@media (max-width: 600px) {
+  .visa-container {
+    padding: 16px 3px 24px 3px;
+    border-radius: 1.3rem;
+    max-width: 99vw;
+  }
+  .visa-header-row {
+    flex-direction: column;
+    gap: 10px;
+    align-items: flex-start;
+  }
+  .visa-logo { height: 38px;}
+  .visa-title { font-size: 1.2rem; }
+  .visa-footer { max-width: 98vw; border-radius: 12px;}
+}
+/* --- КНОПКА "Напомнить в Telegram" как в общем стиле --- */
+.visa-btn.tg {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: linear-gradient(90deg,#3dd6f9 0%,#29fc94 100%);
+  color: #15191c;
+  box-shadow: 0 0 24px #29fc94b0, 0 0 40px #3dd6f966;
+  font-family: 'Russo One', Arial, sans-serif;
+  font-size: 1.13rem;
+  padding: 1.05em 2em;
+  border: none;
+  border-radius: 20px;
+  font-weight: 900;
+  text-shadow: 0 1px 10px #fff2, 0 1px 10px #3dd6f955;
+  transition: background 0.16s, color 0.13s, box-shadow 0.11s, transform 0.09s;
+  margin-bottom: 0.13em;
+  margin-top: 0.13em;
+  letter-spacing: .04em;
+  outline: none;
+}
+.visa-btn.tg:hover,
+.visa-btn.tg:focus {
+  background: linear-gradient(90deg,#29fc94 0%,#3dd6f9 100%);
+  color: #fff;
+  box-shadow: 0 0 32px #29fc94d8, 0 0 60px #3dd6f988;
+  filter: brightness(1.08);
+  transform: translateY(-2px) scale(1.04);
+}
+
+/* --- СЕЛЕКТЫ: стилизуем как в макете --- */
+.visa-select-data {
+  width: 100%;
+  background: #181c20;
+  color: #ffe95d;
+  font-family: 'Russo One', Arial, sans-serif;
+  border-radius: 20px;
+  border: 2.7px solid #29fc94;
+  box-shadow: 0 0 12px #29fc9470, 0 1.5px 13px #15191c18 inset;
+  font-size: 1.15rem;
+  font-weight: 900;
+  padding: 1.1em 1.7em 1.1em 1.3em;
+  outline: none;
+  margin-bottom: 0.22em;
+  appearance: none;
+  transition: box-shadow .17s, border-color .12s;
+  background-image: url('data:image/svg+xml;utf8,<svg fill="yellow" height="20" viewBox="0 0 24 24" width="20" xmlns="http://www.w3.org/2000/svg"><path d="M7 10l5 5 5-5z"/></svg>');
+  background-repeat: no-repeat;
+  background-position: right 1em center;
+  background-size: 1.3em;
+}
+.visa-select-data:focus {
+  border-color: #ffe95d;
+  box-shadow: 0 0 24px #ffe95d88;
+  background: #15191c;
+}
+
+/* --- Хак: стилизуем опции в выпадающем списке (браузер позволяет не всегда!) --- */
+.visa-select-data option {
+  color: #15191c;
+  background: #ffe95d;
+  font-family: 'Russo One', Arial, sans-serif;
+  font-size: 1.07rem;
+}
+/* Body styles moved to individual pages */

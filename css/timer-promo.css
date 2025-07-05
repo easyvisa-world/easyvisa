@@ -1,0 +1,314 @@
+
+/* GTA5-style Promo Widget */
+.gta-promo-widget {
+  position: fixed !important;
+  bottom: 20px !important;
+  left: 20px !important;
+  z-index: 9998 !important;
+  width: 120px !important;
+  height: 120px !important;
+  background: linear-gradient(135deg, #0c0c15 0%, #1a1f2e 50%, #0f1419 100%);
+  border: 3px solid #29fc94;
+  border-radius: 20px;
+  padding: 12px;
+  box-shadow: 
+    0 0 40px rgba(41, 252, 148, 0.5),
+    inset 0 0 25px rgba(255, 233, 93, 0.15);
+  backdrop-filter: blur(20px);
+  cursor: pointer;
+  transition: all 0.3s ease;
+  font-family: 'Bebas Neue', 'Russo One', Arial, sans-serif;
+  animation: gta-pulse 2s ease-in-out infinite;
+  display: block !important;
+  visibility: visible !important;
+}
+
+.gta-promo-widget:hover {
+  transform: scale(1.08);
+  box-shadow: 
+    0 0 60px rgba(41, 252, 148, 0.7),
+    inset 0 0 40px rgba(255, 233, 93, 0.25);
+  border-color: #ffe95d;
+}
+
+.gta-promo-icon {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+  text-align: center;
+}
+
+.gta-promo-text {
+  color: #29fc94;
+  font-size: 14px;
+  font-weight: bold;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  margin-bottom: 8px;
+  text-shadow: 0 0 8px rgba(41, 252, 148, 0.6);
+}
+
+.gta-promo-timer {
+  color: #ffe95d;
+  font-size: 18px;
+  font-weight: bold;
+  text-shadow: 0 0 15px rgba(255, 233, 93, 0.8);
+}
+
+/* Modal Styles */
+.promo-modal-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.8);
+  backdrop-filter: blur(10px);
+  z-index: 10000;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  opacity: 0;
+  visibility: hidden;
+  transition: all 0.3s ease;
+}
+
+.promo-modal-overlay.active {
+  opacity: 1;
+  visibility: visible;
+}
+
+.promo-modal {
+  background: linear-gradient(135deg, #0c0c15 0%, #1a1f2e 50%, #0f1419 100%);
+  border: 3px solid #29fc94;
+  border-radius: 25px;
+  padding: 30px;
+  max-width: 500px;
+  width: 90%;
+  max-height: 90vh;
+  overflow-y: auto;
+  position: relative;
+  box-shadow: 
+    0 0 60px rgba(41, 252, 148, 0.5),
+    inset 0 0 30px rgba(255, 233, 93, 0.15);
+  transform: scale(0.8);
+  transition: transform 0.3s ease;
+}
+
+.promo-modal-overlay.active .promo-modal {
+  transform: scale(1);
+}
+
+.promo-modal-close {
+  position: absolute;
+  top: 15px;
+  right: 20px;
+  background: none;
+  border: none;
+  color: #fff;
+  font-size: 30px;
+  cursor: pointer;
+  transition: color 0.3s ease;
+}
+
+.promo-modal-close:hover {
+  color: #29fc94;
+}
+
+.promo-modal-title {
+  color: #ffe95d;
+  font-size: 28px;
+  text-align: center;
+  margin-bottom: 15px;
+  text-shadow: 0 0 15px rgba(255, 233, 93, 0.8);
+  font-family: 'Bebas Neue', Arial, sans-serif;
+}
+
+.promo-modal-discount {
+  background: linear-gradient(45deg, #29fc94, #ffe95d);
+  color: #0c0c15;
+  font-size: 36px;
+  font-weight: bold;
+  text-align: center;
+  padding: 15px;
+  border-radius: 15px;
+  margin-bottom: 20px;
+  animation: badge-glow 2s ease-in-out infinite alternate;
+  font-family: 'Bebas Neue', Arial, sans-serif;
+}
+
+.promo-modal-description {
+  color: #fff;
+  margin-bottom: 25px;
+}
+
+.promo-modal-description p {
+  font-size: 18px;
+  margin-bottom: 15px;
+  text-align: center;
+}
+
+.promo-modal-description ul {
+  list-style: none;
+  padding: 0;
+}
+
+.promo-modal-description li {
+  padding: 8px 0;
+  font-size: 16px;
+}
+
+.promo-modal-timer {
+  background: rgba(41, 252, 148, 0.1);
+  border: 2px solid rgba(41, 252, 148, 0.3);
+  border-radius: 15px;
+  padding: 20px;
+  margin-bottom: 25px;
+}
+
+.promo-modal-timer-title {
+  color: #29fc94;
+  font-size: 18px;
+  text-align: center;
+  margin-bottom: 15px;
+  font-weight: bold;
+}
+
+.promo-modal-timer-display {
+  display: flex;
+  justify-content: space-around;
+}
+
+.timer-unit-modal {
+  text-align: center;
+}
+
+.timer-number-modal {
+  display: block;
+  color: #ffe95d;
+  font-size: 24px;
+  font-weight: bold;
+  text-shadow: 0 0 15px rgba(255, 233, 93, 0.8);
+  line-height: 1;
+  font-family: 'Bebas Neue', Arial, sans-serif;
+}
+
+.timer-label-modal {
+  display: block;
+  color: #29fc94;
+  font-size: 12px;
+  text-transform: uppercase;
+  margin-top: 5px;
+  letter-spacing: 0.5px;
+}
+
+.promo-modal-actions {
+  display: flex;
+  gap: 15px;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.promo-btn-primary,
+.promo-btn-secondary {
+  padding: 15px 25px;
+  border-radius: 15px;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 16px;
+  transition: all 0.3s ease;
+  text-align: center;
+  min-width: 150px;
+  font-family: 'Bebas Neue', Arial, sans-serif;
+}
+
+.promo-btn-primary {
+  background: linear-gradient(45deg, #29fc94, #ffe95d);
+  color: #0c0c15;
+  border: none;
+}
+
+.promo-btn-primary:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 10px 20px rgba(41, 252, 148, 0.3);
+}
+
+.promo-btn-secondary {
+  background: transparent;
+  color: #29fc94;
+  border: 2px solid #29fc94;
+}
+
+.promo-btn-secondary:hover {
+  background: #29fc94;
+  color: #0c0c15;
+  transform: translateY(-2px);
+}
+
+@keyframes gta-pulse {
+  0%, 100% {
+    box-shadow: 
+      0 0 40px rgba(41, 252, 148, 0.5),
+      inset 0 0 25px rgba(255, 233, 93, 0.15);
+  }
+  50% {
+    box-shadow: 
+      0 0 60px rgba(41, 252, 148, 0.7),
+      inset 0 0 40px rgba(255, 233, 93, 0.25);
+  }
+}
+
+@keyframes badge-glow {
+  0% {
+    box-shadow: 0 0 15px rgba(41, 252, 148, 0.5);
+  }
+  100% {
+    box-shadow: 0 0 25px rgba(255, 233, 93, 0.8);
+  }
+}
+
+@media (max-width: 768px) {
+  .gta-promo-widget {
+    width: 100px !important;
+    height: 100px !important;
+    bottom: 15px !important;
+    left: 15px !important;
+    padding: 8px;
+  }
+  
+  .gta-promo-text {
+    font-size: 12px;
+    margin-bottom: 4px;
+  }
+  
+  .gta-promo-timer {
+    font-size: 14px;
+  }
+  
+  .promo-modal {
+    padding: 20px;
+    max-width: 95%;
+  }
+  
+  .promo-modal-title {
+    font-size: 24px;
+  }
+  
+  .promo-modal-discount {
+    font-size: 28px;
+    padding: 12px;
+  }
+  
+  .promo-modal-actions {
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .promo-btn-primary,
+  .promo-btn-secondary {
+    width: 100%;
+    max-width: 250px;
+  }
+}

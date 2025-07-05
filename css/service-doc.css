@@ -1,0 +1,102 @@
+
+.service-doc-main {
+  max-width: 820px;
+  margin: 38px auto 0 auto;
+  background: rgba(20, 30, 40, 0.93);
+  border-radius: 2.2rem;
+  box-shadow: 0 8px 48px 8px #14b8a660, 0 0 0 3px #2cffd9 inset;
+  padding: 2.7rem 2.2rem 2.2rem 2.2rem;
+  font-family: 'Russo One', Arial, sans-serif;
+  color: #fff;
+  letter-spacing: 0.02em;
+  position: relative;
+  z-index: 1;
+}
+
+.service-doc-title {
+  font-family: 'Bebas Neue', 'Russo One', Arial, sans-serif;
+  font-size: 2.1rem;
+  letter-spacing: 0.06em;
+  color: #29fc94;
+  margin-bottom: 1.5rem;
+  font-weight: 900;
+  text-align: center;
+  text-shadow: 0 2px 14px #29fc94a6;
+}
+
+.service-doc-sections {
+  font-family: 'Russo One', Arial, sans-serif;
+  font-size: 1rem;
+  line-height: 1.6;
+  margin-bottom: 2rem;
+  padding-left: 0;
+  list-style: none;
+}
+
+.service-doc-sections li {
+  margin-bottom: 1.5rem;
+}
+
+.section-title {
+  font-family: 'Bebas Neue', Arial, sans-serif;
+  font-size: 1.3rem;
+  color: #29fc94;
+  margin-bottom: 0.5rem;
+  letter-spacing: 0.02em;
+}
+
+.service-doc-sections ol {
+  padding-left: 1.5rem;
+  margin-top: 0.5rem;
+}
+
+.service-doc-sections ul {
+  padding-left: 1.5rem;
+  margin-top: 0.3rem;
+}
+
+.service-doc-intro {
+  font-size: 1rem;
+  line-height: 1.6;
+  margin-bottom: 2rem;
+  color: rgba(255, 255, 255, 0.9);
+}
+
+.service-doc-date {
+  font-size: 0.9rem;
+  color: #ffe95d;
+  margin-bottom: 1.5rem;
+  text-align: right;
+}
+
+.service-doc-requisites {
+  background: rgba(41, 252, 148, 0.1);
+  border: 1px solid rgba(41, 252, 148, 0.3);
+  border-radius: 0.5rem;
+  padding: 1rem;
+  margin-top: 1rem;
+  font-size: 0.9rem;
+  line-height: 1.4;
+}
+
+.service-doc-requisites a {
+  color: #29fc94;
+  text-decoration: none;
+}
+
+.service-doc-requisites a:hover {
+  color: #ffe95d;
+  text-decoration: underline;
+}
+
+@media (max-width: 600px) {
+  .service-doc-main { 
+    padding: 1.5rem 1rem; 
+    margin: 1rem auto;
+  }
+  .service-doc-title { font-size: 1.5rem; }
+  .section-title { font-size: 1.1rem; }
+  .service-doc-sections {
+    font-size: 0.9rem;
+  }
+}
