@@ -34,9 +34,31 @@
   <!-- Styles -->
   <link rel="preload" href="/include/style_add.css" as="style" onload="this.rel='stylesheet'">
   <noscript><link rel="stylesheet" href="/include/style_add.css"></noscript>
+
+  <!-- Schema markup -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Service",
+    "name": "B1 (E-VOA) Visa for Bali",
+    "description": "Electronic B1 visa for 30 days with the option to extend, issued online within 1–2 hours. Price $59, no hidden fees.",
+    "provider": {
+      "@type": "Organization",
+      "name": "EasyVisa",
+      "url": "https://easyvisa.world"
+    },
+    "offers": {
+      "@type": "Offer",
+      "price": "59",
+      "priceCurrency": "USD",
+      "url": "https://easyvisa.world/b1",
+      "availability": "https://schema.org/InStock"
+    }
+  }
+  </script>
 </head>
 <body>
-<?php include($_SERVER['DOCUMENT_ROOT'].'/include/header.php'); ?>
+<?php include($_SERVER['DOCUMENT_ROOT']."/include/header.php"); ?>
 
 <main>
   <div class="service-container">
@@ -85,8 +107,12 @@
             <span lang="en" style="display:none;">B1 Visa Processing for $59</span>
           </h3>
           <div class="step-content">
-            <p lang="ru">Представь: ты только что прилетел на Бали, и вместо очередей ты просто проходишь через автогейт…</p>
-            <p lang="en" style="display:none;">Imagine: you just landed in Bali, and instead of queues you simply pass…</p>
+            <p lang="ru">
+              Представь: ты только что прилетел на Бали, и вместо очередей ты просто проходишь через автогейт, не отвечая ни на один вопрос. Заранее оформленная B1 — это билет в новый отпуск без нервов и задержек. Ты экономишь часы жизни и не сталкиваешься с "добрыми" пограничниками. Те, кто без визы — стоят в очереди, отвечают на вопросы, ищут билет, а ты первым выходишь встречать рассвет на пляже.
+            </p>
+            <p lang="en" style="display:none;">
+              Imagine: you just landed in Bali, and instead of queues you simply pass through the autogate without answering a single question. A pre-arranged B1 is your ticket to a vacation free of stress and delays. You save hours of life and avoid dealing with “friendly” border officers. Those without a visa stand in line, answer questions, look for tickets, while you’re the first to greet the sunrise on the beach.
+            </p>
           </div>
         </div>
 
@@ -99,16 +125,16 @@
           </h3>
           <div class="step-content">
             <ul class="features-list" lang="ru">
-              <li>Электронная виза B1 на 30 дней с возможностью продления</li>
+              <li>Электронная виза B1 сразу на 30 дней с возможностью продления</li>
               <li>Проход через автогейт — не нужно ни с кем говорить</li>
-              <li>Бесплатная бронь обратного билета</li>
-              <li>Онлайн-процесс без скрытых платежей</li>
+              <li>Бесплатная бронь обратного билета для контроля на границе</li>
+              <li>Всё полностью онлайн, никаких скрытых платежей</li>
             </ul>
             <ul class="features-list" lang="en" style="display:none;">
               <li>Electronic B1 visa for 30 days with extension possibility</li>
               <li>Autogate passage — no need to talk to anyone</li>
-              <li>Free return ticket booking</li>
-              <li>Fully online, no hidden fees</li>
+              <li>Free return ticket booking for border control</li>
+              <li>Everything completely online, no hidden fees</li>
             </ul>
           </div>
         </div>
@@ -122,17 +148,17 @@
           </h3>
           <div class="step-content">
             <ol lang="ru">
-              <li><strong>1.</strong> Напиши нам в Telegram: <a href="https://t.me/evisa_support" class="link-accent">@evisa_support</a></li>
-              <li><strong>2.</strong> Отправь фото паспорта, селфи и дату прилёта</li>
+              <li><strong>1.</strong> Напиши нам в Telegram: <strong><a href="https://t.me/evisa_support" style="color:#3b82f6;">@evisa_support</a></strong></li>
+              <li><strong>2.</strong> Отправь фото паспорта, селфи и планируемую дату прилета</li>
               <li><strong>3.</strong> Мы делаем бронь обратного билета</li>
-              <li><strong>4.</strong> Ты оплачиваешь — виза приходит через 1–2 часа</li>
-              <li><strong>5.</strong> Принимаем: IDR/MYR/VND/RUB/EUR/USDT</li>
+              <li><strong>4.</strong> Ты оплачиваешь, и мы всё оформляем — виза приходит онлайн, через 1-2 часа</li>
+              <li><strong>5.</strong> К оплате принимаем: IDR/MYR/VND/RUB/EUR/USDT</li>
             </ol>
             <ol lang="en" style="display:none;">
-              <li><strong>1.</strong> Write us on Telegram: <a href="https://t.me/evisa_support" class="link-accent">@evisa_support</a></li>
-              <li><strong>2.</strong> Send passport photo, selfie and arrival date</li>
-              <li><strong>3.</strong> We book a return ticket</li>
-              <li><strong>4.</strong> After payment, visa arrives in 1–2 hours</li>
+              <li><strong>1.</strong> Write us on Telegram: <strong><a href="https://t.me/evisa_support" style="color:#3b82f6;">@evisa_support</a></strong></li>
+              <li><strong>2.</strong> Send passport photo, selfie and planned arrival date</li>
+              <li><strong>3.</strong> We make return ticket booking</li>
+              <li><strong>4.</strong> You pay, and we process everything — visa comes online in 1-2 hours</li>
               <li><strong>5.</strong> We accept: IDR/MYR/VND/RUB/EUR/USDT</li>
             </ol>
           </div>
@@ -147,21 +173,21 @@
           </h3>
           <div class="step-content">
             <div lang="ru">
-              <p><strong>— Можно ли пройти автогейт?</strong> Да, если виза оформлена заранее.</p>
-              <p><strong>— Не купил билет?</strong> Мы сделаем бронь, её достаточно для границы.</p>
-              <p><strong>— Мы официальное агентство.</strong> Все документы проверяет миграция.</p>
-              <p><strong>— Боишься не успеть?</strong> Оформляем за 1 час.</p>
+              <p><strong>— Можно ли пройти автогейт?</strong> Да, если виза оформлена заранее — никаких очередей</p>
+              <p><strong>— Не купил билет?</strong> Мы сделаем реальную бронь билета, её достаточно для прохождения пограничного контроля</p>
+              <p><strong>— Мы официальное агентство</strong>, все документы проходят проверку в миграционной службе</p>
+              <p><strong>— Боишься не успеть получить визу?</strong> Мы оформляем за 1 час и даём чёткие инструкции.</p>
             </div>
             <div lang="en" style="display:none;">
-              <p><strong>— Can I use autogate?</strong> Yes, if visa is processed in advance.</p>
-              <p><strong>— No ticket?</strong> We make a real booking.</p>
-              <p><strong>— We are an official agency.</strong> All papers verified.</p>
-              <p><strong>— Afraid of delays?</strong> We process in 1 hour.</p>
+              <p><strong>— Can I use autogate?</strong> Yes, if visa is processed in advance — no queues</p>
+              <p><strong>— Didn't buy a ticket?</strong> We'll make a real ticket booking, it's enough for border control passage</p>
+              <p><strong>— We are an official agency</strong>, all documents pass immigration service verification</p>
+              <p><strong>— Afraid not to get visa in time?</strong> We process in 1 hour and give clear instructions.</p>
             </div>
           </div>
         </div>
 
-        <!-- Step 5 (Full-width) -->
+        <!-- Step 5 (full-width) -->
         <div class="step-card" style="grid-column:1 / -1;">
           <div class="step-number">5</div>
           <h3 class="step-title">
@@ -169,8 +195,12 @@
             <span lang="en" style="display:none;">Ready to Start?</span>
           </h3>
           <div class="step-content">
-            <p lang="ru">Более 4000 человек уже прошли через автогейт с нашей визой…</p>
-            <p lang="en" style="display:none;">More than 4000 people have passed the autogate with our visa…</p>
+            <p lang="ru">
+              Уже больше 4000 человек прошли через автогейт с нашей визой и забыли про очереди. Пиши нам сейчас — и твой отпуск начнётся без нервов уже в аэропорту. Оформи B1 заранее и почувствуй себя VIP — быстрый проход, никаких вопросов, только удовольствие.
+            </p>
+            <p lang="en" style="display:none">
+              More than 4000 people have already passed through autogate with our visa and forgot about queues. Write us now — and your vacation will start without nerves right at the airport. Get B1 in advance and feel like VIP — fast passage, no questions, only pleasure.
+            </p>
           </div>
         </div>
       </div><!-- /.steps-grid -->
@@ -210,8 +240,8 @@
           <span lang="en" style="display:none;">Get B1 Visa Consultation</span>
         </h3>
         <p class="lead-form-subtitle">
-          <span lang="ru">Оставьте контакты — мы свяжемся в течение 15 минут</span>
-          <span lang="en" style="display:none;">Leave your contacts — we’ll reach you within 15 minutes</span>
+          <span lang="ru">Оставьте контакты и мы свяжемся с вами в течение 15 минут</span>
+          <span lang="en" style="display:none;">Leave your contacts and we'll reach you within 15 minutes</span>
         </p>
       </div>
 
@@ -231,15 +261,15 @@
             <span lang="ru">Telegram или WhatsApp</span>
             <span lang="en" style="display:none;">Telegram or WhatsApp</span>
           </label>
-          <input type="text" id="leadContact" name="contact" class="form-input" placeholder="@username или номер" required>
+          <input type="text" id="leadContact" name="contact" class="form-input" placeholder="@username или номер телефона" required>
         </div>
 
         <div class="form-group">
           <label for="leadComment" class="form-label">
-            <span lang="ru">Доп. вопросы (необязательно)</span>
-            <span lang="en" style="display:none;">Additional questions (optional)</span>
+            <span lang="ru">Дополнительные вопросы (необязательно)</span>
+            <span lang="en" style="display:none;">Additional Questions (optional)</span>
           </label>
-          <textarea id="leadComment" name="comment" class="form-textarea" placeholder="Расскажите о планах" rows="3"></textarea>
+          <textarea id="leadComment" name="comment" class="form-textarea" placeholder="Расскажите о ваших планах или задайте вопрос" rows="3"></textarea>
         </div>
 
         <button type="submit" class="form-submit-btn" id="submitLeadForm">
@@ -258,8 +288,8 @@
           <span lang="en" style="display:none;">Request Sent!</span>
         </h4>
         <p class="success-message">
-          <span lang="ru">Мы свяжемся в течение 15 минут</span>
-          <span lang="en" style="display:none;">We'll contact you within 15 minutes</span>
+          <span lang="ru">Мы свяжемся с вами в течение 15 минут для консультации по визе B1</span>
+          <span lang="en" style="display:none;">We'll contact you within 15 minutes for B1 visa consultation</span>
         </p>
         <div class="success-buttons">
           <a href="https://t.me/evisa_support" target="_blank" class="success-btn success-btn-telegram">
@@ -279,7 +309,7 @@
   </div><!-- /#leadFormModal -->
 </main>
 
-<?php include($_SERVER['DOCUMENT_ROOT'].'/include/footer.php'); ?>
+<?php include($_SERVER['DOCUMENT_ROOT']."/include/footer.php"); ?>
 <script src="/js/app_add.js" defer></script>
 </body>
 </html>
