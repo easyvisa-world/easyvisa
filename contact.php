@@ -330,7 +330,7 @@
       </p>
 
       <div class="ev-contact-buttons">
-        <a href="https://wa.me/6287777396729" class="ev-contact-btn ev-contact-btn-whatsapp">
+        <a href="https://wa.me/+84776739907" class="ev-contact-btn ev-contact-btn-whatsapp">
           <span class="ev-contact-icon">📱</span>
           <span class="ev-contact-text" data-translate="contacts.whatsapp">WhatsApp</span>
           <span class="ev-contact-subtitle" data-translate="contacts.quick_contact">Быстрая связь</span>
