@@ -3,292 +3,215 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Регистрация PT PMA — EasyVisa | Компания в Индонезии</title>
-  <meta name="description" content="Регистрация компании PT PMA в Индонезии под ключ. Иностранный капитал, номинальный директор, полное сопровождение.">
-  <link rel="icon" href="https://easyvisa.world/wp-content/uploads/2023/12/logo2.svg_.svg">
 
-  <style>
-    * { box-sizing: border-box; }
-    body { 
-      font-family: 'Bebas Neue', 'Russo One', 'Arial Narrow', Arial, sans-serif !important;
-      background: linear-gradient(135deg, #0f172a 0%, #1e293b 50%, #334155 100%);
-      min-height: 100vh;
-      color: #ffffff;
-      margin: 0;
-      padding: 0;
-      letter-spacing: 0.03em;
+  <title>Регистрация компании PT PMA — EasyVisa | Легальный старт бизнеса в Индонезии</title>
+  <meta name="description" content="Регистрация компании PT PMA под ключ: виртуальный офис, банковский счёт, NPWP, консультации по налогам и найму. Всё включено: сборы, анкета, поддержка. Цена $1600.">
+
+  <!-- Canonical & hreflang -->
+  <link rel="canonical" href="https://easyvisa.world/pt-pma">
+  <link rel="alternate" hreflang="ru" href="https://easyvisa.world/pt-pma">
+  <link rel="alternate" hreflang="en" href="https://easyvisa.world/en/pt-pma">
+
+  <!-- Favicon -->
+  <link rel="icon" type="image/png" href="/logo-visa.png">
+
+  <!-- Open Graph -->
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://easyvisa.world/pt-pma">
+  <meta property="og:title" content="Регистрация компании PT PMA — EasyVisa | Легальный старт бизнеса в Индонезии">
+  <meta property="og:description" content="PT PMA — единственная форма, которая позволяет иностранцу быть владельцем компании в Индонезии. Виртуальный офис, банковский счёт, KITAS. Всё под ключ за $1600.">
+  <meta property="og:image" content="https://easyvisa.world/img/og-pma.png">
+  <meta property="og:image:width" content="1200">
+  <meta property="og:image:height" content="630">
+  <meta property="og:site_name" content="EasyVisa">
+
+  <!-- Twitter -->
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Регистрация компании PT PMA — EasyVisa | Легальный старт бизнеса в Индонезии">
+  <meta name="twitter:description" content="PT PMA — единственная форма, которая позволяет иностранцу быть владельцем компании в Индонезии. Виртуальный офис, банковский счёт, KITAS. Всё под ключ за $1600.">
+  <meta name="twitter:image" content="https://easyvisa.world/img/og-pma.png">
+
+  <!-- Styles -->
+  <link rel="preload" href="/include/style_add.css" as="style" onload="this.rel='stylesheet'">
+  <noscript><link rel="stylesheet" href="/include/style_add.css"></noscript>
+
+  <!-- Schema markup -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Service",
+    "name": "PT PMA Company Registration",
+    "description": "Full-cycle PT PMA registration in Indonesia: virtual office, bank account, NPWP, KITAS for owner. Price $1600, all fees included.",
+    "provider": {
+      "@type": "Organization",
+      "name": "EasyVisa",
+      "url": "https://easyvisa.world"
+    },
+    "offers": {
+      "@type": "Offer",
+      "price": "1600",
+      "priceCurrency": "USD",
+      "url": "https://easyvisa.world/pt-pma",
+      "availability": "https://schema.org/InStock"
     }
-
-    .service-container {
-      max-width: 1200px;
-      margin: 0 auto;
-      padding: 2rem 1rem;
-    }
-
-    .hero-section {
-      background: linear-gradient(135deg, #dc2626 0%, #ef4444 50%, #f87171 100%);
-      border-radius: 24px;
-      padding: 3rem 2rem;
-      margin-bottom: 3rem;
-      position: relative;
-      overflow: hidden;
-      box-shadow: 0 20px 40px rgba(0, 0, 0, 0.3);
-    }
-
-    .hero-content {
-      position: relative;
-      z-index: 2;
-      text-align: center;
-    }
-
-    .hero-title {
-      font-size: 3rem;
-      font-weight: 400;
-      margin-bottom: 1rem;
-      font-family: 'Bebas Neue', Arial, sans-serif !important;
-      letter-spacing: 0.05em;
-    }
-
-    .hero-subtitle {
-      font-size: 1.25rem;
-      margin-bottom: 2rem;
-      opacity: 0.9;
-      font-family: 'Russo One', Arial, sans-serif !important;
-    }
-
-    .price-badge {
-      display: inline-block;
-      background: rgba(255, 255, 255, 0.2);
-      backdrop-filter: blur(10px);
-      border: 1px solid rgba(255, 255, 255, 0.3);
-      border-radius: 50px;
-      padding: 1rem 2rem;
-      font-size: 2rem;
-      font-weight: 400;
-      margin-bottom: 2rem;
-      font-family: 'Bebas Neue', Arial, sans-serif !important;
-    }
-
-    .btn {
-      padding: 1rem 2rem;
-      border-radius: 12px;
-      font-weight: 400;
-      text-decoration: none;
-      transition: all 0.3s ease;
-      border: none;
-      cursor: pointer;
-      display: inline-flex;
-      align-items: center;
-      gap: 0.5rem;
-      font-family: 'Bebas Neue', Arial, sans-serif !important;
-      letter-spacing: 0.03em;
-      font-size: 1.1rem;
-    }
-
-    .btn-primary {
-      background: linear-gradient(135deg, #10b981 0%, #059669 100%);
-      color: white;
-      box-shadow: 0 4px 15px rgba(16, 185, 129, 0.4);
-    }
-
-    .btn-secondary {
-      background: rgba(255, 255, 255, 0.1);
-      color: white;
-      border: 1px solid rgba(255, 255, 255, 0.3);
-      backdrop-filter: blur(10px);
-    }
-
-    .steps-grid {
-      display: grid;
-      grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
-      gap: 2rem;
-      margin: 3rem 0;
-    }
-
-    .step-card {
-      background: rgba(255, 255, 255, 0.05);
-      backdrop-filter: blur(10px);
-      border: 1px solid rgba(255, 255, 255, 0.1);
-      border-radius: 20px;
-      padding: 2rem;
-      position: relative;
-    }
-
-    .step-number {
-      position: absolute;
-      top: -15px;
-      left: 2rem;
-      background: linear-gradient(135deg, #dc2626 0%, #ef4444 100%);
-      color: white;
-      width: 40px;
-      height: 40px;
-      border-radius: 50%;
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      font-weight: 400;
-      font-size: 1.25rem;
-      border: 3px solid #0f172a;
-      font-family: 'Bebas Neue', Arial, sans-serif !important;
-    }
-
-    .step-title {
-      font-size: 1.5rem;
-      font-weight: 400;
-      margin-bottom: 1rem;
-      margin-top: 1rem;
-      color: #ef4444;
-      font-family: 'Bebas Neue', Arial, sans-serif !important;
-    }
-
-    .step-content {
-      font-family: 'Russo One', Arial, sans-serif !important;
-      line-height: 1.6;
-    }
-
-    .features-list {
-      list-style: none;
-      padding: 0;
-      margin: 1rem 0;
-    }
-
-    .features-list li {
-      padding: 0.5rem 0;
-      display: flex;
-      align-items: center;
-      gap: 0.75rem;
-      font-family: 'Russo One', Arial, sans-serif !important;
-    }
-
-    .features-list li::before {
-      content: '✓';
-      background: linear-gradient(135deg, #10b981 0%, #059669 100%);
-      color: white;
-      width: 20px;
-      height: 20px;
-      border-radius: 50%;
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      font-size: 0.8rem;
-      font-weight: bold;
-      flex-shrink: 0;
-    }
-
-    @media (max-width: 768px) {
-      .hero-title { font-size: 2rem; }
-      .steps-grid { grid-template-columns: 1fr; }
-      .service-container { padding: 1rem 0.5rem; }
-    }
-  </style>
-
-  <?php include $_SERVER['DOCUMENT_ROOT'].'/include/head_links.php'; ?>
+  }
+  </script>
 </head>
-
 <body>
-  <?php include($_SERVER['DOCUMENT_ROOT']."/include/header.php"); ?>
+<?php include($_SERVER['DOCUMENT_ROOT'].'/include/header.php'); ?>
 
+<main>
   <div class="service-container">
-    <section class="hero-section">
+    <!-- Hero Section -->
+    <section class="hero-section" style="background:linear-gradient(135deg,#0891b2 0%,#0ea5e9 100%);">
       <div class="hero-content">
-        <h1 class="hero-title">Регистрация PT PMA — Компания в Индонезии</h1>
-        <p class="hero-subtitle">Полная регистрация компании с иностранным капиталом. От идеи до работающего бизнеса.</p>
-        <div class="price-badge">$2,850 USD</div>
-        <div style="display: flex; gap: 1rem; justify-content: center; flex-wrap: wrap;">
+        <h1 class="hero-title">Регистрация компании PT PMA</h1>
+        <p class="hero-subtitle">Комплексное сопровождение: все этапы под ключ, банковский счёт, легальная работа на Бали. Открываем счёт и KITAS владельцу. Всё включено (сборы, анкета, поддержка).</p>
+        <div class="price-badge" style="background-color:#0891b2;">$1600 USD</div>
+        <div class="cta-buttons">
           <a href="https://t.me/evisa_support" target="_blank" class="btn btn-primary">Telegram</a>
           <a href="https://wa.me/84776739907" target="_blank" class="btn btn-secondary">WhatsApp</a>
         </div>
       </div>
     </section>
 
-    <div class="steps-grid">
-      <div class="step-card">
-        <div class="step-number">1</div>
-        <h3 class="step-title">Что такое PT PMA?</h3>
-        <div class="step-content">
-          <p>PT PMA (Penanaman Modal Asing) — это компания с иностранными инвестициями в Индонезии. Это ваш билет к легальному бизнесу и возможности получить рабочую визу/KITAS.</p>
-          <ul class="features-list">
-            <li>Минимальный капитал: $70,000</li>
-            <li>Можно владеть 100% акций</li>
-            <li>Право на рабочую визу для учредителей</li>
-            <li>Возможность ведения любого разрешенного бизнеса</li>
-          </ul>
+    <!-- Steps Section -->
+    <section class="steps-section">
+      <h2 class="section-title">Как оформить PT PMA</h2>
+
+      <div class="steps-grid">
+        <!-- Step 1 -->
+        <div class="step-card">
+          <div class="step-number">1</div>
+          <h3 class="step-title">PT PMA — легальный старт бизнеса в Индонезии за $1600</h3>
+          <div class="step-content">
+            <p>Хочешь вести бизнес в Индонезии легально? PT PMA — это твой пропуск. Только эта форма позволяет иностранцу быть владельцем компании, нанимать сотрудников, открывать счёт и получать KITAS. Всё под ключ, официально, онлайн — мы берём на себя весь процесс.</p>
+          </div>
+        </div>
+
+        <!-- Step 2 -->
+        <div class="step-card">
+          <div class="step-number">2</div>
+          <h3 class="step-title">Что входит?</h3>
+          <div class="step-content">
+            <ul class="features-list">
+              <li>Официальная регистрация PT PMA онлайн</li>
+              <li>Виртуальный офис для госорганов и банков</li>
+              <li>Открытие счёта в индонезийском банке</li>
+              <li>NPWP — налоговый номер для бизнеса</li>
+              <li>Консультации по налогам, найму и KITAS</li>
+            </ul>
+          </div>
+        </div>
+
+        <!-- Step 3 -->
+        <div class="step-card">
+          <div class="step-number">3</div>
+          <h3 class="step-title">Как подать?</h3>
+          <div class="step-content">
+            <ol>
+              <li>- Напиши нам в Telegram: <strong><a href="https://t.me/evisa_support" style="color:#3b82f6;">@evisa_support</a></strong></li>
+              <li>- Отправь фото паспорта, селфи и ИНН своей страны</li>
+              <li>- Мы создаём виртуальный офис и подаём заявку</li>
+              <li>- После одобрения регистрируем NPWP и открываем счёт</li>
+              <li>- Все документы и доступы получаешь онлайн</li>
+            </ol>
+          </div>
+        </div>
+
+        <!-- Step 4 -->
+        <div class="step-card">
+          <div class="step-number">4</div>
+          <h3 class="step-title">Вопросы?</h3>
+          <div class="step-content">
+            <p>- Это фиктивная компания? Нет, ты 100% владелец.</p>
+            <p>- Нужен ли визит на Бали? Нет, всё онлайн.</p>
+            <p>- Можно ли получить KITAS? Да, PT PMA — это основа.</p>
+            <p>- Сколько ждать? Обычно 30–40 рабочих дней.</p>
+            <p>- Всё через госорганы, без посредников и рисков.</p>
+          </div>
+        </div>
+
+        <!-- Step 5 (full-width) -->
+        <div class="step-card" style="grid-column:1 / -1;">
+          <div class="step-number">5</div>
+          <h3 class="step-title">Готовы начать?</h3>
+          <div class="step-content">
+            <p>Сотни клиентов уже оформили бизнес с нами без вылета и визитов. Надёжно, безопасно, официально. Напиши нам и получи подробную консультацию сегодня — регистрация компании в Индонезии теперь доступна каждому.</p>
+          </div>
         </div>
       </div>
+    </section>
 
-      <div class="step-card">
-        <div class="step-number">2</div>
-        <h3 class="step-title">Что входит в стоимость?</h3>
-        <div class="step-content">
-          <ul class="features-list">
-            <li>Резервирование названия компании</li>
-            <li>Подготовка уставных документов</li>
-            <li>Регистрация в Минюсте</li>
-            <li>Получение NPWP (налогового номера)</li>
-            <li>Регистрация в BKPM</li>
-            <li>Номинальный директор (если нужен)</li>
-            <li>Юридический адрес на 1 год</li>
-            <li>Банковский счет (помощь в открытии)</li>
-          </ul>
+    <!-- Final CTA -->
+    <section class="final-cta">
+      <div class="final-cta-content">
+        <h2 style="font-size:2rem;margin-bottom:1rem;">Готовы оформить PT PMA?</h2>
+        <p style="margin-bottom:2rem;opacity:.9;">Сотни предпринимателей уже запустили бизнес с нашей помощью. Живи и работай в Индонезии на законных основаниях. Напиши нам сейчас и узнай детали.</p>
+        <div class="cta-buttons">
+          <a href="https://t.me/evisa_support" target="_blank" class="btn btn-primary">Написать в Telegram</a>
+          <a href="https://wa.me/84776739907" target="_blank" class="btn btn-secondary">WhatsApp</a>
         </div>
-      </div>
-
-      <div class="step-card">
-        <div class="step-number">3</div>
-        <h3 class="step-title">Документы от вас</h3>
-        <div class="step-content">
-          <ul class="features-list">
-            <li>Паспорт учредителей</li>
-            <li>Справка о несудимости</li>
-            <li>Выписка с банковского счета</li>
-            <li>Подтверждение адреса проживания</li>
-            <li>CV/резюме (опционально)</li>
-          </ul>
-          <p>Все документы переводим и заверяем — вам не нужно ничего искать.</p>
-        </div>
-      </div>
-
-      <div class="step-card">
-        <div class="step-number">4</div>
-        <h3 class="step-title">Сроки и процесс</h3>
-        <div class="step-content">
-          <p><strong>Этап 1:</strong> Подготовка документов (7-10 дней)<br>
-          <strong>Этап 2:</strong> Регистрация компании (14-21 день)<br>
-          <strong>Этап 3:</strong> Получение лицензий (30-45 дней)<br>
-          <strong>Этап 4:</strong> Открытие банковского счета</p>
-
-          <p><strong>Итого:</strong> 60-90 дней до полностью готовой компании</p>
-        </div>
-      </div>
-
-      <!-- Блок готовности на всю ширину -->
-      <div class="step-card" style="grid-column: 1 / -1;">
-        <div class="step-number">5</div>
-        <h3 class="step-title">
-          <span lang="ru">Готовы открыть бизнес?</span>
-          <span lang="en" style="display: none;">Ready to Start Business?</span>
-        </h3>
-        <div class="step-content">
-          <p lang="ru">
-            PT PMA — это ваш билет в мир легального бизнеса в Индонезии. Мы поможем открыть компанию быстро и без бюрократических проблем. Начните свой путь к успеху уже сегодня!
-          </p>
-          <p lang="en" style="display: none;">
-            PT PMA is your ticket to the world of legal business in Indonesia. We'll help you open a company quickly and without bureaucratic problems. Start your path to success today!
-          </p>
-        </div>
-      </div>
-    </div>
-
-    <section style="background: linear-gradient(135deg, #dc2626 0%, #ef4444 50%, #f87171 100%); border-radius: 24px; padding: 3rem 2rem; text-align: center; margin-top: 4rem;">
-      <h2 style="font-size: 2rem; margin-bottom: 1rem; font-family: 'Bebas Neue', Arial, sans-serif;">Готовы открыть бизнес?</h2>
-      <p style="margin-bottom: 2rem; opacity: 0.9; font-family: 'Russo One', Arial, sans-serif;">Начните легальный бизнес в Индонезии уже сегодня</p>
-      <div style="display: flex; gap: 1rem; justify-content: center; flex-wrap: wrap;">
-        <a href="https://t.me/evisa_support" target="_blank" class="btn btn-primary">Написать в Telegram</a>
-        <a href="https://wa.me/84776739907" target="_blank" class="btn btn-secondary">WhatsApp</a>
       </div>
     </section>
   </div>
 
-  <?php include($_SERVER['DOCUMENT_ROOT']."/include/footer.php"); ?>
+  <!-- Lead Form Modal -->
+  <div id="leadFormModal" class="lead-form-modal">
+    <div class="lead-form-overlay" onclick="closeLeadFormModal()"></div>
+    <div class="lead-form-content">
+      <button class="lead-form-close" onclick="closeLeadFormModal()" aria-label="Закрыть">&times;</button>
+
+      <div class="lead-form-header">
+        <h3 class="lead-form-title">Получить консультацию по PT PMA</h3>
+        <p class="lead-form-subtitle">Оставьте контакты, и мы свяжемся с вами в течение 15 минут</p>
+      </div>
+
+      <form id="leadForm" class="lead-form" action="/api/lead" method="post" autocomplete="off">
+        <input type="hidden" name="csrf_token" value="<?php echo htmlspecialchars($_SESSION['csrf_token'] ?? ''); ?>">
+
+        <div class="form-group">
+          <label for="leadName" class="form-label">Имя</label>
+          <input type="text" id="leadName" name="name" class="form-input" placeholder="Ваше имя" required>
+        </div>
+
+        <div class="form-group">
+          <label for="leadContact" class="form-label">Telegram или WhatsApp</label>
+          <input type="text" id="leadContact" name="contact" class="form-input" placeholder="@username или номер телефона" required>
+        </div>
+
+        <div class="form-group">
+          <label for="leadComment" class="form-label">Дополнительные вопросы (необязательно)</label>
+          <textarea id="leadComment" name="comment" class="form-textarea" placeholder="Расскажите о ваших планах или задайте вопрос" rows="3"></textarea>
+        </div>
+
+        <button type="submit" class="form-submit-btn" id="submitLeadForm">
+          <svg width="20" height="20" fill="none" stroke="currentColor" viewBox="0 0 24 24" aria-hidden="true" focusable="false">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 19l9 2-9-18-9 18 9-2zm0 0v-8"></path>
+          </svg>
+          Отправить заявку
+        </button>
+      </form>
+
+      <div id="leadFormSuccess" class="lead-form-success" style="display:none;">
+        <div class="success-icon">✓</div>
+        <h4 class="success-title">Заявка отправлена!</h4>
+        <p class="success-message">Мы свяжемся с вами в течение 15 минут для консультации по PT PMA</p>
+        <div class="success-buttons">
+          <a href="https://t.me/evisa_support" target="_blank" class="success-btn success-btn-telegram">
+            <svg width="18" height="18" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true" focusable="false">
+              <path d="M11.944 0A12 12 0 0 0 0 12a12 12 0 0 0 12 12 12 12 0 0 0 12-12A12 12 0 0 0 12 0a12 12 0 0 0-.056 0zm4.962 7.224c.1-.002.321.023.465.14a.506.506 0 0 1 .171.325c.016.093.036.306.02.472-.18 1.898-.962 6.502-1.36 8.627-.168.9-.499 1.201-.82 1.23-.696.065-1.225-.46-1.9-.902-1.056-.693-1.653-1.124-2.678-1.8-1.185-.78-.417-1.21.258-1.91.177-.184 3.247-2.977 3.307-3.23-.056-.212-.174-.041-.249-.024-.106.024-1.793 1.14-5.061 3.345-.48.33-.913.49-1.302.48-.428-.008-1.252-.241-1.865-.44-.752-.245-1.349-.374-1.297-.789.027-.216.325-.437.893-.663 3.498-1.524 5.83-2.529 6.998-3.014 3.332-1.386 4.025-1.627 4.476-1.635z"/>
+            </svg>
+            Написать сейчас
+          </a>
+          <button onclick="closeLeadFormModal()" class="success-btn success-btn-close">Закрыть</button>
+        </div>
+      </div>
+    </div>
+  </div>
+</main>
+
+<?php include($_SERVER['DOCUMENT_ROOT'].'/include/footer.php'); ?>
+<script src="/js/app_add.js" defer></script>
 </body>
 </html>
