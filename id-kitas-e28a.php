@@ -1,608 +1,104 @@
-
 <!DOCTYPE html>
 <html lang="ru">
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>KITAS E28A Индонезия — EasyVisa | Бизнес-резиденция</title>
-  <meta name="description" content="Оформите KITAS E28A для ведения бизнеса в Индонезии. Годовая резиденция с правом коммерческой деятельности.">
+
+  <title>KITAS E28A — бизнес-виза на 1 год — EasyVisa | Легальный статус для бизнеса</title>
+  <meta name="description" content="KITAS E28A — официальная бизнес-виза на 1 год для инвестиций и коммерческой деятельности в Индонезии. Всё включено: сборы, анкета, поддержка. Оформление онлайн за 14-21 день. Цена $1290.">
+
+  <!-- Canonical & hreflang -->
+  <link rel="canonical" href="https://easyvisa.world/kitas-e28a">
+  <link rel="alternate" hreflang="ru" href="https://easyvisa.world/kitas-e28a">
+  <link rel="alternate" hreflang="en" href="https://easyvisa.world/en/kitas-e28a">
+
+  <!-- Favicon -->
   <link rel="icon" type="image/png" href="/logo-visa.png">
+
+  <!-- Open Graph -->
   <meta property="og:type" content="website">
-  <meta property="og:url" content="https://easyvisa.world/id-kitas-e28a">
-  <meta property="og:title" content="KITAS E28A Индонезия — EasyVisa | Бизнес-резиденция">
-  <meta property="og:description" content="Оформите KITAS E28A для ведения бизнеса в Индонезии. Годовая резиденция с правом коммерческой деятельности.">
-  <meta property="og:image" content="https://easyvisa.world/wp-content/uploads/2023/12/logo2.svg_.svg">
+  <meta property="og:url" content="https://easyvisa.world/kitas-e28a">
+  <meta property="og:title" content="KITAS E28A — бизнес-виза на 1 год — EasyVisa | Легальный статус для бизнеса">
+  <meta property="og:description" content="Официальная бизнес-виза на 1 год для инвестиций и коммерческой деятельности в Индонезии. Всё включено: сборы, анкета, поддержка. Оформление онлайн за 14-21 день. Цена $1290.">
+  <meta property="og:image" content="https://easyvisa.world/img/og-e28a.png">
+  <meta property="og:image:width" content="1200">
+  <meta property="og:image:height" content="630">
   <meta property="og:site_name" content="EasyVisa">
+
+  <!-- Twitter -->
   <meta name="twitter:card" content="summary_large_image">
-  <meta name="twitter:title" content="KITAS E28A Индонезия — EasyVisa | Бизнес-резиденция">
-  <meta name="twitter:description" content="Оформите KITAS E28A для ведения бизнеса в Индонезии. Годовая резиденция с правом коммерческой деятельности.">
-  <meta name="twitter:image" content="https://easyvisa.world/wp-content/uploads/2023/12/logo2.svg_.svg">
+  <meta name="twitter:title" content="KITAS E28A — бизнес-виза на 1 год — EasyVisa | Легальный статус для бизнеса">
+  <meta name="twitter:description" content="Официальная бизнес-виза на 1 год для инвестиций и коммерческой деятельности в Индонезии. Всё включено: сборы, анкета, поддержка. Оформление онлайн за 14-21 день. Цена $1290.">
+  <meta name="twitter:image" content="https://easyvisa.world/img/og-e28a.png">
 
-  <style>
-    body { 
-      font-family: 'Bebas Neue', 'Russo One', 'Arial Narrow', Arial, sans-serif !important;
-      background: linear-gradient(135deg, #0f172a 0%, #1e293b 50%, #334155 100%);
-      min-height: 100vh;
-      color: #ffffff;
-      margin: 0;
-      padding: 0;
-      letter-spacing: 0.03em;
+  <!-- Styles -->
+  <link rel="preload" href="/include/style_add.css" as="style" onload="this.rel='stylesheet'">
+  <noscript><link rel="stylesheet" href="/include/style_add.css"></noscript>
+
+  <!-- Schema markup -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Service",
+    "name": "KITAS E28A for Indonesia",
+    "description": "Official business KITAS E28A: one-year residence permit for investments and commercial activity. Multiple entry, bank accounts, yearly renewal. Fully online, processed in 14-21 days. Price $1290, all fees included.",
+    "provider": {
+      "@type": "Organization",
+      "name": "EasyVisa",
+      "url": "https://easyvisa.world"
+    },
+    "offers": {
+      "@type": "Offer",
+      "price": "1290",
+      "priceCurrency": "USD",
+      "url": "https://easyvisa.world/kitas-e28a",
+      "availability": "https://schema.org/InStock"
     }
-
-    .service-container {
-      max-width: 1200px;
-      margin: 0 auto;
-      padding: 2rem;
-      padding-left: clamp(1rem, 5vw, 4rem);
-      padding-right: clamp(1rem, 5vw, 4rem);
-      padding-bottom: 120px;
-      position: relative;
-      z-index: 1;
-    }
-
-    .hero-section {
-      background: linear-gradient(135deg, #f59e0b 0%, #f97316 50%, #ea580c 100%);
-      border-radius: 24px;
-      padding: clamp(2rem, 5vw, 3rem) clamp(1.5rem, 4vw, 2rem);
-      margin-bottom: 3rem;
-      position: relative;
-      overflow: hidden;
-      box-shadow: 0 20px 40px rgba(0, 0, 0, 0.3);
-      z-index: 1;
-    }
-
-    .hero-section::before {
-      content: '';
-      position: absolute;
-      top: 0;
-      left: 0;
-      right: 0;
-      bottom: 0;
-      background: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100"><defs><pattern id="grid" width="10" height="10" patternUnits="userSpaceOnUse"><path d="M 10 0 L 0 0 0 10" fill="none" stroke="rgba(255,255,255,0.1)" stroke-width="0.5"/></pattern></defs><rect width="100" height="100" fill="url(%23grid)"/></svg>');
-      opacity: 0.3;
-    }
-
-    .hero-content {
-      position: relative;
-      z-index: 2;
-      text-align: center;
-    }
-
-    .hero-title {
-      font-size: 3rem;
-      font-weight: 400;
-      margin-bottom: 1rem;
-      background: linear-gradient(135deg, #ffffff 0%, #f1f5f9 100%);
-      -webkit-background-clip: text;
-      -webkit-text-fill-color: transparent;
-      background-clip: text;
-      font-family: 'Bebas Neue', 'Russo One', 'Arial Narrow', Arial, sans-serif !important;
-      letter-spacing: 0.05em;
-    }
-
-    .hero-subtitle {
-      font-size: 1.25rem;
-      margin-bottom: 2rem;
-      opacity: 0.9;
-      max-width: 600px;
-      margin-left: auto;
-      margin-right: auto;
-      font-family: 'Russo One', Arial, sans-serif !important;
-    }
-
-    .price-badge {
-      display: inline-block;
-      background: rgba(255, 255, 255, 0.2);
-      backdrop-filter: blur(10px);
-      border: 1px solid rgba(255, 255, 255, 0.3);
-      border-radius: 50px;
-      padding: 1rem 2rem;
-      font-size: 2rem;
-      font-weight: 400;
-      margin-bottom: 2rem;
-      font-family: 'Bebas Neue', Arial, sans-serif !important;
-      letter-spacing: 0.05em;
-    }
-
-    .cta-buttons {
-      display: flex;
-      gap: 1rem;
-      justify-content: center;
-      flex-wrap: wrap;
-    }
-
-    .btn {
-      padding: 1rem 2rem;
-      border-radius: 12px;
-      font-weight: 400;
-      text-decoration: none;
-      transition: all 0.3s ease;
-      border: none;
-      cursor: pointer;
-      display: inline-flex;
-      align-items: center;
-      gap: 0.5rem;
-      font-family: 'Bebas Neue', Arial, sans-serif !important;
-      letter-spacing: 0.03em;
-      font-size: 1.1rem;
-    }
-
-    .btn-primary {
-      background: linear-gradient(135deg, #10b981 0%, #059669 100%);
-      color: white;
-      box-shadow: 0 4px 15px rgba(16, 185, 129, 0.4);
-    }
-
-    .btn-primary:hover {
-      transform: translateY(-2px);
-      box-shadow: 0 8px 25px rgba(16, 185, 129, 0.6);
-    }
-
-    .btn-secondary {
-      background: rgba(255, 255, 255, 0.1);
-      color: white;
-      border: 1px solid rgba(255, 255, 255, 0.3);
-      backdrop-filter: blur(10px);
-    }
-
-    .btn-secondary:hover {
-      background: rgba(255, 255, 255, 0.2);
-      transform: translateY(-2px);
-    }
-
-    .steps-section {
-      margin: 4rem 0;
-    }
-
-    .section-title {
-      text-align: center;
-      font-size: 2.5rem;
-      font-weight: 400;
-      margin-bottom: 3rem;
-      background: linear-gradient(135deg, #f59e0b 0%, #f97316 100%);
-      -webkit-background-clip: text;
-      -webkit-text-fill-color: transparent;
-      background-clip: text;
-      font-family: 'Bebas Neue', Arial, sans-serif !important;
-      letter-spacing: 0.05em;
-    }
-
-    .steps-grid {
-      display: grid;
-      grid-template-columns: repeat(2, 1fr);
-      gap: 2rem;
-      margin-bottom: 3rem;
-    }
-
-    .step-card {
-      background: rgba(255, 255, 255, 0.1);
-      backdrop-filter: blur(25px);
-      border: 2px solid rgba(245, 158, 11, 0.3);
-      border-radius: 20px;
-      padding: clamp(1.5rem, 4vw, 2rem);
-      margin-top: 20px;
-      position: relative;
-      transition: all 0.4s cubic-bezier(0.4, 0, 0.2, 1);
-      overflow: visible;
-      z-index: 1;
-      cursor: pointer;
-      transform: perspective(1000px) rotateX(0deg) rotateY(0deg);
-      box-shadow: 
-        0 8px 32px rgba(245, 158, 11, 0.15),
-        inset 0 1px 0 rgba(255, 255, 255, 0.1),
-        inset 0 -1px 0 rgba(0, 0, 0, 0.1);
-    }
-
-    .step-card:hover {
-      transform: perspective(1000px) rotateX(5deg) rotateY(-3deg) translateY(-8px) translateZ(20px);
-      border-color: rgba(245, 158, 11, 0.7);
-      background: rgba(255, 255, 255, 0.15);
-      backdrop-filter: blur(30px);
-      box-shadow: 
-        0 25px 50px rgba(245, 158, 11, 0.25),
-        0 0 30px rgba(249, 115, 22, 0.3),
-        inset 0 2px 0 rgba(255, 255, 255, 0.15),
-        inset 0 -2px 0 rgba(0, 0, 0, 0.15);
-    }
-
-    .step-card::before {
-      content: '';
-      position: absolute;
-      top: 0;
-      left: 0;
-      right: 0;
-      height: 4px;
-      background: linear-gradient(135deg, #f59e0b 0%, #f97316 100%);
-    }
-
-    .step-number {
-      position: absolute;
-      top: -20px;
-      left: 2rem;
-      background: linear-gradient(135deg, #f59e0b 0%, #f97316 100%);
-      color: white;
-      width: 40px;
-      height: 40px;
-      border-radius: 50%;
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      font-weight: 400;
-      font-size: 1.25rem;
-      border: 3px solid #0f172a;
-      font-family: 'Bebas Neue', Arial, sans-serif !important;
-      z-index: 10;
-    }
-
-    .step-title {
-      font-size: 1.5rem;
-      font-weight: 400;
-      margin-bottom: 1rem;
-      margin-top: 1rem;
-      margin-left: 2rem;
-      color: #f97316;
-      font-family: 'Bebas Neue', Arial, sans-serif !important;
-      letter-spacing: 0.03em;
-    }
-
-    .step-content {
-      line-height: 1.6;
-      opacity: 0.9;
-      font-family: 'Russo One', Arial, sans-serif !important;
-    }
-
-    .features-list {
-      list-style: none;
-      padding: 0;
-      margin: 1rem 0;
-    }
-
-    .features-list li {
-      padding: 0.5rem 0;
-      display: flex;
-      align-items: center;
-      gap: 0.75rem;
-      font-family: 'Russo One', Arial, sans-serif !important;
-    }
-
-    .features-list li::before {
-      content: '✓';
-      background: linear-gradient(135deg, #10b981 0%, #059669 100%);
-      color: white;
-      width: 20px;
-      height: 20px;
-      border-radius: 50%;
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      font-size: 0.8rem;
-      font-weight: bold;
-      flex-shrink: 0;
-    }
-
-    .final-cta {
-      background: linear-gradient(135deg, #f59e0b 0%, #f97316 50%, #ea580c 100%);
-      border-radius: 24px;
-      padding: clamp(2rem, 5vw, 3rem) clamp(1.5rem, 4vw, 2rem);
-      text-align: center;
-      margin-top: 4rem;
-      margin-bottom: 2rem;
-      position: relative;
-      overflow: hidden;
-      z-index: 1;
-    }
-
-    .final-cta::before {
-      content: '';
-      position: absolute;
-      top: 0;
-      left: 0;
-      right: 0;
-      bottom: 0;
-      background: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100"><defs><pattern id="dots" width="20" height="20" patternUnits="userSpaceOnUse"><circle cx="10" cy="10" r="1" fill="rgba(255,255,255,0.1)"/></pattern></defs><rect width="100" height="100" fill="url(%23dots)"/></svg>');
-    }
-
-    .final-cta-content {
-      position: relative;
-      z-index: 2;
-    }
-
-    .final-cta h2 {
-      font-family: 'Bebas Neue', Arial, sans-serif !important;
-      letter-spacing: 0.05em;
-      font-weight: 400;
-    }
-
-    .final-cta p {
-      font-family: 'Russo One', Arial, sans-serif !important;
-    }
-
-    ol {
-      list-style: none; 
-      padding: 0;
-      font-family: 'Russo One', Arial, sans-serif !important;
-    }
-
-    ol li {
-      margin-bottom: 1rem;
-      font-family: 'Russo One', Arial, sans-serif !important;
-    }
-
-    ol li strong {
-      font-family: 'Russo One', Arial, sans-serif !important;
-    }
-
-    @media (max-width: 1024px) and (min-width: 769px) {
-      .steps-grid {
-        grid-template-columns: repeat(2, 1fr);
-        gap: 1.5rem;
-      }
-      .service-container {
-        padding-left: clamp(1.5rem, 4vw, 3rem);
-        padding-right: clamp(1.5rem, 4vw, 3rem);
-      }
-    }
-
-    /* Consultation Modal */
-    .consultation-modal {
-      position: fixed;
-      top: 0;
-      left: 0;
-      width: 100%;
-      height: 100%;
-      background: rgba(15, 23, 42, 0.8);
-      backdrop-filter: blur(10px);
-      display: none;
-      justify-content: center;
-      align-items: center;
-      z-index: 10000;
-      opacity: 0;
-      transition: all 0.3s ease;
-    }
-
-    .consultation-modal.show {
-      display: flex;
-      opacity: 1;
-    }
-
-    .modal-content {
-      background: rgba(255, 255, 255, 0.1);
-      backdrop-filter: blur(30px);
-      border: 2px solid rgba(245, 158, 11, 0.4);
-      border-radius: 24px;
-      padding: 2.5rem;
-      max-width: 450px;
-      width: 90%;
-      text-align: center;
-      position: relative;
-      transform: scale(0.9) translateY(20px);
-      transition: all 0.4s cubic-bezier(0.4, 0, 0.2, 1);
-      box-shadow: 
-        0 20px 60px rgba(0, 0, 0, 0.3),
-        0 0 40px rgba(245, 158, 11, 0.2),
-        inset 0 2px 0 rgba(255, 255, 255, 0.1);
-    }
-
-    .consultation-modal.show .modal-content {
-      transform: scale(1) translateY(0);
-    }
-
-    .modal-close {
-      position: absolute;
-      top: 10px;
-      right: 15px;
-      background: none;
-      border: none;
-      color: white;
-      font-size: 28px;
-      cursor: pointer;
-      transition: all 0.3s ease;
-      z-index: 1000;
-      width: 40px;
-      height: 40px;
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      border-radius: 50%;
-    }
-
-    .modal-close:hover {
-      color: #f97316;
-      background: rgba(249, 115, 22, 0.1);
-      transform: scale(1.1);
-    }
-
-    .modal-title {
-      font-family: 'Bebas Neue', Arial, sans-serif;
-      font-size: 1.8rem;
-      color: #f97316;
-      margin-bottom: 1rem;
-      letter-spacing: 0.05em;
-    }
-
-    .modal-subtitle {
-      font-family: 'Russo One', Arial, sans-serif;
-      font-size: 1rem;
-      color: white;
-      opacity: 0.9;
-      margin-bottom: 2rem;
-      line-height: 1.5;
-    }
-
-    .modal-buttons {
-      display: flex;
-      gap: 1rem;
-      justify-content: center;
-      flex-wrap: wrap;
-    }
-
-    .modal-btn {
-      display: flex;
-      align-items: center;
-      gap: 0.5rem;
-      padding: 1rem 1.5rem;
-      border-radius: 12px;
-      text-decoration: none;
-      font-family: 'Bebas Neue', Arial, sans-serif;
-      font-size: 1.1rem;
-      letter-spacing: 0.03em;
-      transition: all 0.3s ease;
-      border: 2px solid transparent;
-      backdrop-filter: blur(10px);
-    }
-
-    .modal-btn-telegram {
-      background: linear-gradient(135deg, #0088cc 0%, #005f99 100%);
-      color: white;
-      box-shadow: 0 4px 15px rgba(0, 136, 204, 0.4);
-    }
-
-    .modal-btn-telegram:hover {
-      transform: translateY(-2px);
-      box-shadow: 0 8px 25px rgba(0, 136, 204, 0.6);
-      border-color: rgba(255, 255, 255, 0.3);
-    }
-
-    .modal-btn-whatsapp {
-      background: linear-gradient(135deg, #25d366 0%, #128c7e 100%);
-      color: white;
-      box-shadow: 0 4px 15px rgba(37, 211, 102, 0.4);
-    }
-
-    .modal-btn-whatsapp:hover {
-      transform: translateY(-2px);
-      box-shadow: 0 8px 25px rgba(37, 211, 102, 0.6);
-      border-color: rgba(255, 255, 255, 0.3);
-    }
-
-    @media (max-width: 768px) {
-      .hero-title { font-size: 2rem; }
-      .hero-subtitle { font-size: 1rem; }
-      .cta-buttons { flex-direction: column; align-items: center; }
-      .steps-grid { grid-template-columns: 1fr; }
-      .service-container { 
-        padding: 1rem;
-        padding-left: clamp(1rem, 4vw, 2rem);
-        padding-right: clamp(1rem, 4vw, 2rem);
-        padding-bottom: 100px;
-      }
-      .final-cta {
-        margin-bottom: 1rem;
-      }
-      .step-number {
-        left: clamp(1rem, 4vw, 2rem);
-      }
-      .modal-content {
-        padding: 2rem 1.5rem;
-        margin: 1rem;
-      }
-      .modal-buttons {
-        flex-direction: column;
-        align-items: center;
-      }
-      .modal-btn {
-        width: 100%;
-        justify-content: center;
-      }
-    }
-
-    /* Исправление позиционирования Jivo чата */
-    #jivo-iframe-container,
-    [id*="jivo"],
-    [class*="jivo"],
-    .jivo_widget,
-    .jivo-widget,
-    #jivo_chat_widget,
-    div[id^="jivo"],
-    div[class^="jivo"] {
-      position: fixed !important;
-      bottom: 20px !important;
-      right: 20px !important;
-      z-index: 2147483647 !important;
-      transform: none !important;
-      margin: 0 !important;
-      left: auto !important;
-      top: auto !important;
-      display: block !important;
-      visibility: visible !important;
-    }
-
-    @media (max-width: 768px) {
-      #jivo-iframe-container,
-      [id*="jivo"],
-      [class*="jivo"],
-      .jivo_widget,
-      .jivo-widget,
-      #jivo_chat_widget,
-      div[id^="jivo"],
-      div[class^="jivo"] {
-        bottom: 15px !important;
-        right: 15px !important;
-      }
-    }
-  </style>
-
-  <?php include $_SERVER['DOCUMENT_ROOT'].'/include/head_links.php'; ?>
+  }
+  </script>
 </head>
-
 <body>
-  <?php include($_SERVER['DOCUMENT_ROOT']."/include/header.php"); ?>
+<?php include($_SERVER['DOCUMENT_ROOT'].'/include/header.php'); ?>
 
-  <main>
+<main>
   <div class="service-container">
     <!-- Hero Section -->
-    <section class="hero-section">
+    <section class="hero-section" style="background:linear-gradient(135deg,#0891b2 0%,#0ea5e9 100%);">
       <div class="hero-content">
-        <h1 class="hero-title">KITAS E28A — Бизнес-резиденция</h1>
-        <p class="hero-subtitle">Годовая резиденция в Индонезии для ведения коммерческой деятельности и инвестиций</p>
-        <div class="price-badge">$1,290 USD</div>
+        <h1 class="hero-title">KITAS E28A — бизнес-виза на 1 год</h1>
+        <p class="hero-subtitle">Официальная виза для ведения бизнеса, инвестиций и коммерческой деятельности в Индонезии. Всё включено (сборы, анкета, поддержка). Возможность продления каждый год — легальный статус для бизнеса.</p>
+        <div class="price-badge" style="background-color:#0891b2;">$1290 USD</div>
         <div class="cta-buttons">
-          <a href="https://t.me/evisa_support" target="_blank" class="btn btn-primary">
-            <svg width="20" height="20" fill="currentColor" viewBox="0 0 24 24">
-              <path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm-2 15l-1.5-1.5L11 13H7v-2h4l-2.5-2.5L10 7l5 5-5 5z"/>
-            </svg>
-            Telegram
-          </a>
-          <a href="https://wa.me/84776739907" target="_blank" class="btn btn-secondary">
-            <svg width="20" height="20" fill="currentColor" viewBox="0 0 24 24">
-              <path d="M17.472 14.382c-.297-.149-1.758-.867-2.031-.967-.273-.099-.472-.148-.672.15-.198.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.149-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.298-.018-.458.13-.606.134-.133.298-.347.447-.52.151-.174.2-.298.299-.497.099-.198.05-.372-.025-.521-.075-.148-.672-1.624-.921-2.222-.242-.583-.487-.504-.669-.513l-.57-.01c-.198 0-.52.074-.792.372s-1.04 1.016-1.04 2.479 1.065 2.876 1.213 3.074c.149.198 2.1 3.2 5.077 4.363.709.306 1.262.489 1.694.626.712.227 1.36.195 1.872.119.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.288.173-1.413-.074-.124-.272-.198-.57-.347z"/>
-            </svg>
-            WhatsApp
-          </a>
+          <a href="https://t.me/evisa_world" target="_blank" class="btn btn-primary">Telegram</a>
+          <a href="https://wa.me/84776739907" target="_blank" class="btn btn-secondary">WhatsApp</a>
         </div>
       </div>
     </section>
 
     <!-- Steps Section -->
     <section class="steps-section">
-      <h2 class="section-title">Как получить KITAS E28A</h2>
+      <h2 class="section-title">Как оформить KITAS E28A</h2>
 
       <div class="steps-grid">
         <!-- Step 1 -->
         <div class="step-card">
           <div class="step-number">1</div>
-          <h3 class="step-title">Кому подходит KITAS E28A?</h3>
+          <h3 class="step-title">KITAS E28A — официальная бизнес-виза за $1290</h3>
           <div class="step-content">
-            <ul class="features-list">
-              <li>Иностранные инвесторы</li>
-              <li>Владельцы бизнеса в Индонезии</li>
-              <li>Директора компаний PT PMA</li>
-              <li>Предприниматели и трейдеры</li>
-            </ul>
-            <p>Это официальная виза для ведения коммерческой деятельности в Индонезии.</p>
+            <p>Планируешь серьёзный бизнес в Индонезии? KITAS E28A — твой пропуск в мир официальной коммерческой деятельности. Инвестиции, торговля, партнёрство с местными компаниями — всё становится легальным и безопасным. Годовая виза даёт стабильность и уверенность в завтрашнем дне.</p>
           </div>
         </div>
 
         <!-- Step 2 -->
         <div class="step-card">
           <div class="step-number">2</div>
-          <h3 class="step-title">Что дает KITAS E28A?</h3>
+          <h3 class="step-title">Что входит?</h3>
           <div class="step-content">
             <ul class="features-list">
-              <li>Проживание в Индонезии 1 год</li>
-              <li>Право на ведение бизнеса</li>
-              <li>Многократные въезды/выезды</li>
+              <li>KITAS на 1 год с правом ведения бизнеса</li>
+              <li>Множественный въезд/выезд без ограничений</li>
               <li>Возможность открытия банковских счетов</li>
+              <li>Право на ведение коммерческой деятельности</li>
               <li>Возможность продления каждый год</li>
             </ul>
           </div>
@@ -611,15 +107,15 @@
         <!-- Step 3 -->
         <div class="step-card">
           <div class="step-number">3</div>
-          <h3 class="step-title">Документы для оформления</h3>
+          <h3 class="step-title">Как подать?</h3>
           <div class="step-content">
             <ol>
-              <li><strong>1.</strong> Паспорт (действительный 18+ месяцев)</li>
-              <li><strong>2.</strong> Справка о несудимости</li>
-              <li><strong>3.</strong> Медицинская справка</li>
-              <li><strong>4.</strong> Бизнес-план или инвестиционное письмо</li>
-              <li><strong>5.</strong> Банковские выписки</li>
-              <li><strong>6.</strong> Документы спонсорской компании</li>
+              <li>- Напиши нам в Telegram: <strong><a href="https://t.me/evisa_world" style="color:#3b82f6;">@evisa_world</a></strong></li>
+              <li>- Отправь документы: паспорт, справка о несудимости, бизнес-план</li>
+              <li>- Мы подготавливаем спонсорское письмо и все нужные документы</li>
+              <li>- Подача в консульство/посольство Индонезии</li>
+              <li>- Получение визы через 14-21 рабочий день</li>
+              <li>- К оплате принимаем: IDR/MYR/VND/RUB/EUR/USDT</li>
             </ol>
           </div>
         </div>
@@ -627,32 +123,21 @@
         <!-- Step 4 -->
         <div class="step-card">
           <div class="step-number">4</div>
-          <h3 class="step-title">Процесс оформления</h3>
+          <h3 class="step-title">Вопросы?</h3>
           <div class="step-content">
-            <ol>
-              <li><strong>1.</strong> Консультация и проверка документов</li>
-              <li><strong>2.</strong> Подготовка спонсорского письма</li>
-              <li><strong>3.</strong> Подача в МИД Индонезии</li>
-              <li><strong>4.</strong> Получение разрешения (30-60 дней)</li>
-              <li><strong>5.</strong> Въезд в Индонезию</li>
-              <li><strong>6.</strong> Получение KITAS на руки</li>
-            </ol>
+            <p>- Нужен ли бизнес-опыт? Желательно, но мы поможем оформить все документы.</p>
+            <p>- Можно ли работать по найму? Да, в рамках коммерческой деятельности.</p>
+            <p>- Нужно ли вылетать? Зависит от текущего статуса — консультируем индивидуально.</p>
+            <p>- Мы официальное агентство с опытом более 5 лет и гарантируем сопровождение на всех этапах оформления.</p>
           </div>
         </div>
 
-        <!-- Блок гарантий на всю ширину -->
-        <div class="step-card" style="grid-column: 1 / -1;">
+        <!-- Step 5 (full-width) -->
+        <div class="step-card" style="grid-column:1 / -1;">
           <div class="step-number">5</div>
-          <h3 class="step-title">Наши гарантии и поддержка</h3>
+          <h3 class="step-title">Готовы начать?</h3>
           <div class="step-content">
-            <ul class="features-list" style="display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 1rem;">
-              <li>Полное юридическое сопровождение</li>
-              <li>Подготовка всех документов</li>
-              <li>Переводы и нотариальные заверения</li>
-              <li>Личный менеджер на весь срок</li>
-              <li>Возврат средств при отказе по нашей вине</li>
-              <li>Поддержка при ведении бизнеса</li>
-            </ul>
+            <p>Более 200 предпринимателей уже получили KITAS E28A через наше агентство и успешно ведут бизнес в Индонезии. Присоединяйся к сообществу легальных бизнесменов. Напиши нам сейчас — и получи подробную консультацию по всем вопросам оформления.</p>
           </div>
         </div>
       </div>
@@ -661,195 +146,72 @@
     <!-- Final CTA -->
     <section class="final-cta">
       <div class="final-cta-content">
-        <h2 style="font-size: 2rem; margin-bottom: 1rem;">Готовы получить KITAS E28A?</h2>
-        <p style="margin-bottom: 2rem; opacity: 0.9;">Начните легальный бизнес в Индонезии</p>
+        <h2 style="font-size:2rem;margin-bottom:1rem;">Готовы оформить KITAS E28A?</h2>
+        <p style="margin-bottom:2rem;opacity:.9;">Присоединяйся к сообществу легальных бизнесменов. Живи и развивай бизнес в Индонезии на законных основаниях. Напиши нам сейчас и узнай детали.</p>
         <div class="cta-buttons">
-          <a href="https://t.me/evisa_support" target="_blank" class="btn btn-primary">Написать в Telegram</a>
+          <a href="https://t.me/evisa_world" target="_blank" class="btn btn-primary">Написать в Telegram</a>
           <a href="https://wa.me/84776739907" target="_blank" class="btn btn-secondary">WhatsApp</a>
         </div>
       </div>
     </section>
   </div>
 
-  <!-- Consultation Modal -->
-  <div id="consultationModal" class="consultation-modal">
-    <div class="modal-content">
-      <button class="modal-close" onclick="closeConsultationModal()">&times;</button>
-      <h3 class="modal-title">Получить бесплатную консультацию</h3>
-      <p class="modal-subtitle">Выберите удобный способ связи для получения персональной консультации по KITAS E28A</p>
-      <div class="modal-buttons">
-        <a href="https://t.me/evisa_support" target="_blank" class="modal-btn modal-btn-telegram" onclick="closeConsultationModal()">
-          <svg width="20" height="20" fill="currentColor" viewBox="0 0 24 24">
-            <path d="M11.944 0A12 12 0 0 0 0 12a12 12 0 0 0 12 12 12 12 0 0 0 12-12A12 12 0 0 0 12 0a12 12 0 0 0-.056 0zm4.962 7.224c.1-.002.321.023.465.14a.506.506 0 0 1 .171.325c.016.093.036.306.02.472-.18 1.898-.962 6.502-1.36 8.627-.168.9-.499 1.201-.82 1.23-.696.065-1.225-.46-1.9-.902-1.056-.693-1.653-1.124-2.678-1.8-1.185-.78-.417-1.21.258-1.91.177-.184 3.247-2.977 3.307-3.23.007-.032.014-.15-.056-.212s-.174-.041-.249-.024c-.106.024-1.793 1.14-5.061 3.345-.48.33-.913.49-1.302.48-.428-.008-1.252-.241-1.865-.44-.752-.245-1.349-.374-1.297-.789.027-.216.325-.437.893-.663 3.498-1.524 5.83-2.529 6.998-3.014 3.332-1.386 4.025-1.627 4.476-1.635z"/>
+  <!-- Lead Form Modal -->
+  <div id="leadFormModal" class="lead-form-modal">
+    <div class="lead-form-overlay" onclick="closeLeadFormModal()"></div>
+    <div class="lead-form-content">
+      <button class="lead-form-close" onclick="closeLeadFormModal()" aria-label="Закрыть">&times;</button>
+
+      <div class="lead-form-header">
+        <h3 class="lead-form-title">Получить консультацию по KITAS E28A</h3>
+        <p class="lead-form-subtitle">Оставьте контакты, и мы свяжемся с вами в течение 15 минут</p>
+      </div>
+
+      <form id="leadForm" class="lead-form" action="/api/lead" method="post" autocomplete="off">
+        <input type="hidden" name="csrf_token" value="<?php echo htmlspecialchars($_SESSION['csrf_token'] ?? ''); ?>">
+
+        <div class="form-group">
+          <label for="leadName" class="form-label">Имя</label>
+          <input type="text" id="leadName" name="name" class="form-input" placeholder="Ваше имя" required>
+        </div>
+
+        <div class="form-group">
+          <label for="leadContact" class="form-label">Telegram или WhatsApp</label>
+          <input type="text" id="leadContact" name="contact" class="form-input" placeholder="@username или номер телефона" required>
+        </div>
+
+        <div class="form-group">
+          <label for="leadComment" class="form-label">Дополнительные вопросы (необязательно)</label>
+          <textarea id="leadComment" name="comment" class="form-textarea" placeholder="Расскажите о ваших планах или задайте вопрос" rows="3"></textarea>
+        </div>
+
+        <button type="submit" class="form-submit-btn" id="submitLeadForm">
+          <svg width="20" height="20" fill="none" stroke="currentColor" viewBox="0 0 24 24" aria-hidden="true" focusable="false">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 19l9 2-9-18-9 18 9-2zm0 0v-8"></path>
           </svg>
-          Telegram
-        </a>
-        <a href="https://wa.me/84776739907" target="_blank" class="modal-btn modal-btn-whatsapp" onclick="closeConsultationModal()">
-          <svg width="20" height="20" fill="currentColor" viewBox="0 0 24 24">
-            <path d="M17.472 14.382c-.297-.149-1.758-.867-2.031-.967-.273-.099-.472-.148-.672.15-.198.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.149-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.298-.018-.458.13-.606.134-.133.298-.347.447-.52.151-.174.2-.298.299-.497.099-.198.05-.372-.025-.521-.075-.148-.672-1.624-.921-2.222-.242-.583-.487-.504-.669-.513l-.57-.01c-.198 0-.52.074-.792.372s-1.04 1.016-1.04 2.479 1.065 2.876 1.213 3.074c.149.198 2.1 3.2 5.077 4.363.709.306 1.262.489 1.694.626.712.227 1.36.195 1.872.119.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.288.173-1.413-.074-.124-.272-.198-.57-.347z"/>
-          </svg>
-          WhatsApp
-        </a>
+          Отправить заявку
+        </button>
+      </form>
+
+      <div id="leadFormSuccess" class="lead-form-success" style="display:none;">
+        <div class="success-icon">✓</div>
+        <h4 class="success-title">Заявка отправлена!</h4>
+        <p class="success-message">Мы свяжемся с вами в течение 15 минут для консультации по KITAS E28A</p>
+        <div class="success-buttons">
+          <a href="https://t.me/evisa_world" target="_blank" class="success-btn success-btn-telegram">
+            <svg width="18" height="18" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true" focusable="false">
+              <path d="M11.944 0A12 12 0 0 0 0 12a12 12 0 0 0 12 12 12 12 0 0 0 12-12A12 12 0 0 0 12 0a12 12 0 0 0-.056 0zm4.962 7.224c.1-.002.321.023.465.14a.506.506 0 0 1 .171.325c.016.093.036.306.02.472-.18 1.898-.962 6.502-1.36 8.627-.168.9-.499 1.201-.82 1.23-.696.065-1.225-.46-1.9-.902-1.056-.693-1.653-1.124-2.678-1.8-1.185-.78-.417-1.21.258-1.91.177-.184 3.247-2.977 3.307-3.23-.056-.212-.174-.041-.249-.024-.106.024-1.793 1.14-5.061 3.345-.48.33-.913.49-1.302.48-.428-.008-1.252-.241-1.865-.44-.752-.245-1.349-.374-1.297-.789.027-.216.325-.437.893-.663 3.498-1.524 5.83-2.529 6.998-3.014 3.332-1.386 4.025-1.627 4.476-1.635z"/>
+            </svg>
+            Написать сейчас
+          </a>
+          <button onclick="closeLeadFormModal()" class="success-btn success-btn-close">Закрыть</button>
+        </div>
       </div>
     </div>
   </div>
-  </main>
+</main>
 
-  <?php include($_SERVER['DOCUMENT_ROOT']."/include/footer.php"); ?>
-
-  <script>
-    // Consultation Modal Functions
-    function openConsultationModal() {
-      const modal = document.getElementById('consultationModal');
-      modal.classList.add('show');
-      document.body.style.overflow = 'hidden';
-      
-      // Add click sound effect
-      playClickSound();
-    }
-
-    function closeConsultationModal() {
-      const modal = document.getElementById('consultationModal');
-      modal.classList.remove('show');
-      document.body.style.overflow = '';
-    }
-
-    // Close modal when clicking outside
-    document.addEventListener('click', function(event) {
-      const modal = document.getElementById('consultationModal');
-      if (event.target === modal) {
-        closeConsultationModal();
-      }
-    });
-
-    // Close modal with Escape key
-    document.addEventListener('keydown', function(event) {
-      if (event.key === 'Escape') {
-        closeConsultationModal();
-      }
-    });
-
-    // 3D Glass Effects for Step Cards
-    function setupStepCardEffects() {
-      const stepCards = document.querySelectorAll('.step-card');
-      
-      stepCards.forEach((card, index) => {
-        // Click event to open consultation modal
-        card.addEventListener('click', function(event) {
-          event.preventDefault();
-          openConsultationModal();
-          
-          // Add click effect
-          card.style.transform = 'perspective(1000px) rotateX(10deg) rotateY(-5deg) translateY(-2px) scale(0.98)';
-          setTimeout(() => {
-            card.style.transform = '';
-          }, 200);
-        });
-
-        // Enhanced 3D hover effects
-        card.addEventListener('mousemove', function(event) {
-          const rect = card.getBoundingClientRect();
-          const centerX = rect.left + rect.width / 2;
-          const centerY = rect.top + rect.height / 2;
-
-          const deltaX = event.clientX - centerX;
-          const deltaY = event.clientY - centerY;
-
-          const rotateX = (deltaY / rect.height) * -15;
-          const rotateY = (deltaX / rect.width) * 15;
-
-          card.style.transform = `
-            perspective(1000px) 
-            rotateX(${rotateX}deg) 
-            rotateY(${rotateY}deg) 
-            translateY(-8px) 
-            translateZ(20px)
-          `;
-        });
-
-        card.addEventListener('mouseleave', function() {
-          card.style.transform = '';
-        });
-
-        // Add floating animation with delay
-        card.style.animationDelay = `${index * 0.2}s`;
-        card.classList.add('floating-element');
-      });
-    }
-
-    // Simple click sound effect
-    function playClickSound() {
-      try {
-        const audioContext = new (window.AudioContext || window.webkitAudioContext)();
-        const oscillator = audioContext.createOscillator();
-        const gainNode = audioContext.createGain();
-
-        oscillator.connect(gainNode);
-        gainNode.connect(audioContext.destination);
-
-        oscillator.frequency.setValueAtTime(800, audioContext.currentTime);
-        oscillator.frequency.exponentialRampToValueAtTime(200, audioContext.currentTime + 0.1);
-
-        gainNode.gain.setValueAtTime(0.1, audioContext.currentTime);
-        gainNode.gain.exponentialRampToValueAtTime(0.01, audioContext.currentTime + 0.1);
-
-        oscillator.start(audioContext.currentTime);
-        oscillator.stop(audioContext.currentTime + 0.1);
-      } catch (error) {
-        // Ignore audio errors
-      }
-    }
-
-    // Инициализация при загрузке
-    document.addEventListener('DOMContentLoaded', function() {
-      setupStepCardEffects();
-    });
-
-    // Исправление позиционирования Jivo чата
-    (function() {
-      function fixJivoPosition() {
-        const jivoSelectors = [
-          '#jivo-iframe-container',
-          '[id*="jivo"]',
-          '[class*="jivo"]',
-          '.jivo_widget',
-          '.jivo-widget',
-          '#jivo_chat_widget',
-          'div[id^="jivo"]',
-          'div[class^="jivo"]'
-        ];
-
-        jivoSelectors.forEach(selector => {
-          try {
-            const elements = document.querySelectorAll(selector);
-            elements.forEach(element => {
-              if (element && element.style) {
-                element.style.setProperty('position', 'fixed', 'important');
-                element.style.setProperty('bottom', '20px', 'important');
-                element.style.setProperty('right', '20px', 'important');
-                element.style.setProperty('z-index', '2147483647', 'important');
-                element.style.setProperty('transform', 'none', 'important');
-                element.style.setProperty('margin', '0', 'important');
-                element.style.setProperty('left', 'auto', 'important');
-                element.style.setProperty('top', 'auto', 'important');
-                element.style.setProperty('display', 'block', 'important');
-                element.style.setProperty('visibility', 'visible', 'important');
-              }
-            });
-          } catch (e) {
-            // Игнорируем ошибки
-          }
-        });
-      }
-
-      // Запускаем при загрузке
-      document.addEventListener('DOMContentLoaded', fixJivoPosition);
-      window.addEventListener('load', fixJivoPosition);
-
-      // Периодически проверяем
-      setInterval(fixJivoPosition, 2000);
-    })();
-  </script>
-
+<?php include($_SERVER['DOCUMENT_ROOT'].'/include/footer.php'); ?>
+<script src="/js/app_add.js" defer></script>
 </body>
 </html>
