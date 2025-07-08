@@ -115,3 +115,31 @@ main, .container {
     @media (max-width: 768px) { .container { grid-template-columns: 1fr; gap: 1.1rem; } .wide { grid-column: span 1; }
       .number { top: 0.5rem; left: 0.8rem; font-size: 1.65rem; } .card { min-height: 165px; padding-left: 2.2rem; padding-right: 2.2rem;}}
     @media (max-width: 480px) { .number { top: 0.18rem; left: 0.54rem; font-size: 1.18rem; } .card { padding-left: 1.0rem; padding-right: 1.0rem; }}
+
+/* ========== ГЛОБАЛЬНОЕ ОТКЛЮЧЕНИЕ ДЁРГАЮЩИХ ЭФФЕКТОВ ========== */
+html,body{
+  /* если было плавное скроллирование */
+  scroll-behavior:auto!important;
+}
+
+*,*::before,*::after{
+  /* убираем все анимации и плавности */
+  animation:none!important;
+  transition:none!important;
+
+  /* убираем 3-D/scale/повороты, но НЕ трогаем позиционирование */
+  transform:none!important;
+
+  /* убираем дорогие фильтры, из-за которых «прыгает» слой */
+  backdrop-filter:none!important;
+  filter:none!important;
+  will-change:auto!important;
+}
+
+/* если на :hover задавались box-shadow’ы,
+   оставим маленький статичный, чтобы кнопки не «скакали» */
+.btn:hover,
+.modal-btn:hover,
+.footer-btn:hover{
+  box-shadow:none!important;
+}
