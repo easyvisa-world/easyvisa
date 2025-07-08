@@ -3,204 +3,215 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Digital Nomad-виза — EasyVisa | Официальное проживание за $350</title>
-  <meta name="description" content="Работаешь онлайн? Получи годовую digital nomad визу за $350. Всё официально, без визаранов. Только паспорт и селфи.">
-  <link rel="icon" href="https://easyvisa.world/wp-content/uploads/2023/12/logo2.svg_.svg">
-  <!-- Open Graph / Facebook -->
+
+  <title>F-1 Digital Nomad — 1 год в Южной Корее — EasyVisa | Официальная виза за $350</title>
+  <meta name="description" content="Первая цифровая виза F-1 в Южной Корее: год жизни и удалённой работы без визаранов. Быстрое онлайн-оформление за 10–14 дней. Цена $350, всё включено.">
+
+  <!-- Canonical & hreflang -->
+  <link rel="canonical" href="https://easyvisa.world/f1-digital-nomad">
+  <link rel="alternate" hreflang="ru" href="https://easyvisa.world/f1-digital-nomad">
+  <link rel="alternate" hreflang="en" href="https://easyvisa.world/en/f1-digital-nomad">
+
+  <!-- Favicon -->
+  <link rel="icon" type="image/png" href="/logo-visa.png">
+
+  <!-- Open Graph -->
   <meta property="og:type" content="website">
-  <meta property="og:url" content="https://easyvisa.world/nomad">
-  <meta property="og:title" content="Digital Nomad-виза — EasyVisa | Живи легально за границей">
-  <meta property="og:description" content="Официальная виза на 1 год для удалённой работы. Подходит для сотрудников иностранных компаний. Всё онлайн.">
-  <meta property="og:image" content="https://easyvisa.world/wp-content/uploads/2023/12/logo2.svg_.svg">
+  <meta property="og:url" content="https://easyvisa.world/f1-digital-nomad">
+  <meta property="og:title" content="F-1 Digital Nomad — 1 год в Южной Корее — EasyVisa | Официальная виза за $350">
+  <meta property="og:description" content="Годовая digital nomad-виза в Южную Корею: живи и работай удалённо без визаранов. Оформление 10–14 дней онлайн. Цена $350.">
+  <meta property="og:image" content="https://easyvisa.world/img/og-f1-dn.png">
+  <meta property="og:image:width" content="1200">
+  <meta property="og:image:height" content="630">
   <meta property="og:site_name" content="EasyVisa">
+
   <!-- Twitter -->
   <meta name="twitter:card" content="summary_large_image">
-  <meta name="twitter:title" content="Digital Nomad-виза — EasyVisa | Без визаранов, без стресса, $350">
-  <meta name="twitter:description" content="Живи и работай легально. Только паспорт и селфи. Поддержка на каждом этапе.">
-  <meta name="twitter:image" content="https://easyvisa.world/wp-content/uploads/2023/12/logo2.svg_.svg">
-  <script src="https://cdn.tailwindcss.com"></script>
-<link rel="stylesheet" href="/include/mainstyle.css">
-<?php include $_SERVER['DOCUMENT_ROOT'].'/include/head_links.php'; ?>
-<style>
-body {margin:0;background:linear-gradient(135deg,#0c0c15 0%,#1a1f2e 50%,#0c0c15 100%);color:#fff;font-family:'Russo One',Arial,sans-serif;min-height:100vh;padding-top:80px}
-@media(max-width:768px){body{padding-top:60px}.card-grid{grid-template-columns:1fr;gap:1.5rem}.card{padding:1.5rem}}
-</style>
-</head>
-<?php include($_SERVER['DOCUMENT_ROOT']."/include/header.php"); ?>
+  <meta name="twitter:title" content="F-1 Digital Nomad — 1 год в Южной Корее — EasyVisa | Официальная виза за $350">
+  <meta name="twitter:description" content="Годовая digital nomad-виза в Южную Корею. Оформление 10–14 дней онлайн. Цена $350, всё включено.">
+  <meta name="twitter:image" content="https://easyvisa.world/img/og-f1-dn.png">
 
-<body>
+  <!-- Styles -->
+  <link rel="preload" href="/include/style_add.css" as="style" onload="this.rel='stylesheet'">
+  <noscript><link rel="stylesheet" href="/include/style_add.css"></noscript>
 
-<br>
-
-<div class="flex flex-col items-center w-full px-2">
-  <div class="flex flex-col lg:flex-row items-center justify-center gap-6 w-full max-w-4xl mx-auto mt-8">
-    <!-- БАННЕР с group -->
-    <div class="relative flex-1 bg-[#191d26]/95 border-4 border-[#27ffab] rounded-2xl shadow-[0_0_40px_6px_rgba(39,255,171,0.13)] p-7 flex flex-col justify-between min-w-[320px] group cursor-pointer" id="gta-visa-banner">
-      <div>
-        <div class="font-gta text-3xl md:text-4xl font-extrabold text-white mb-2 leading-tight drop-shadow-[0_0_12px_#29fc94b0]">F-1 Digital Nomad — 1 год</div>
-        <div class="text-lg md:text-xl font-semibold text-[#ffe95d] mb-4 leading-snug">
-          Первая цифровая виза в Южной Корее. Идеальна для удалённых специалистов и фрилансеров.
-        </div>
-      </div>
-      <div class="flex items-end justify-between mt-2">
-        <div class="text-[#36ffad] font-bold text-xs sm:text-base">Всё включено (сборы, анкета, поддержка)</div>
-        <div class="flex flex-col items-end">
-          <div class="bg-[#15181d] border-2 border-[#ffe95d] px-7 py-3 rounded-xl flex items-baseline gap-2 shadow-[0_0_12px_#ffe95dbb]">
-            <span class="text-3xl text-[#ffe95d] font-extrabold font-gta drop-shadow-[0_0_7px_#ffe95da1]">$350</span>
-            <span class="text-[#ffe95d] text-lg font-gta">USD</span>
-          </div>
-        </div>
-      </div>
-      <!-- Tooltip: hover+JS -->
-      <div id="gta-tooltip"
-        class="absolute left-1/2 -bottom-16 -translate-x-1/2 opacity-0 pointer-events-none group-hover:opacity-100 group-hover:pointer-events-auto transition-all duration-300 z-20 bg-[#232832] border-2 border-[#ffe95d] rounded-xl px-6 py-3 text-[#ffe95d] text-center font-bold text-lg shadow-lg">
-        Можно жить и работать удалённо в Корее до года — без визаранов.
-      </div>
-    </div>
-    <!-- КНОПКИ -->
-    <div class="flex flex-col gap-4 w-full max-w-xs lg:max-w-[220px]">
-      <a href="https://t.me/evisa_world" target="_blank"
-        class="w-full flex items-center justify-center gap-2 bg-[#29fc94] hover:bg-[#ffe95d] text-[#1b1d22] font-gta text-xl font-extrabold rounded-xl shadow-[0_0_18px_#29fc9499] px-0 py-3 transition-all duration-150 border-2 border-[#29fc94] hover:border-[#ffe95d]">
-        <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path d="M2 10l7 6 9-13" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
-        Telegram
-      </a>
-      <a href="https://wa.me/84776739907" target="_blank"
-        class="w-full flex items-center justify-center gap-2 bg-[#ffe95d] hover:bg-[#29fc94] text-[#1b1d22] font-gta text-xl font-extrabold rounded-xl shadow-[0_0_18px_#ffe95d99] px-0 py-3 transition-all duration-150 border-2 border-[#ffe95d] hover:border-[#29fc94]">
-        <svg class="w-6 h-6" fill="currentColor" viewBox="0 0 24 24"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.031-.967-.273-.099-.472-.148-.672.15-.198.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.149-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.298-.018-.458.13-.606.134-.133.298-.347.447-.52.151-.174.2-.298.299-.497.099-.198.05-.372-.025-.521-.075-.148-.672-1.624-.921-2.222-.242-.583-.487-.504-.669-.513l-.57-.01c-.198 0-.52.074-.792.372s-1.04 1.016-1.04 2.479 1.065 2.876 1.213 3.074c.149.198 2.1 3.2 5.077 4.363.709.306 1.262.489 1.694.626.712.227 1.36.195 1.872.119.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.288.173-1.413-.074-.124-.272-.198-.57-.347z"/><path d="M21.707 3.293A9.957 9.957 0 0012 0C5.373 0 5.373 0 12c0 1.989.522 3.946 1.509 5.665L.057 23.428a1.003 1.003 0 001.23 1.23l5.763-1.452A11.95 11.95 0 0012 24c6.627 0 12-5.373 12-12 0-2.652-.836-5.216-2.293-7.293z"/></svg>
-        WhatsApp
-      </a>
-    </div>
-  </div>
-</div>
-
-<br>
-  <div class="container">
-    <div class="card wide" data-modal="1">
-      <span class="number">1</span>
-      <h2 class="text-xl font-bold mb-2">Digital Nomad-виза — живи и работай за границей за $350</h2>
-      <p>Работаешь онлайн и хочешь жить легально за границей, без страха депортации и хаоса с визами? Оформи digital nomad-визу на год — всё официально, онлайн, без визаранов. Только паспорт и селфи — остальное мы берём на себя, включая легальный контракт.</p>
-    </div>
-    <div class="card" data-modal="2">
-      <span class="number">2</span>
-      <h2 class="text-lg font-semibold mb-1">Что входит?</h2>
-      <p>
-        <span style="font-size:1.3em;">✅</span> Годовая digital nomad-виза<br>
-        <span style="font-size:1.3em;">✅</span> Гарантия получения: не оформили — вернём деньги<br>
-        <span style="font-size:1.3em;">✅</span> Только паспорт и селфи<br>
-        <span style="font-size:1.3em;">✅</span> Легальный статус удалённого работника<br>
-        <span style="font-size:1.3em;">✅</span> Всё онлайн, срок оформления — 10–14 дней
-      </p>
-    </div>
-    <div class="card" data-modal="3">
-      <span class="number">3</span>
-      <h2 class="text-lg font-semibold mb-1">Как подать?</h2>
-      <p>
-        1. Напиши нам в Telegram: <strong><a href="https://t.me/evisa_support">@evisa_support</a></strong><br>
-        2. Отправь фото паспорта и селфи<br>
-        3. Оплати $350 — мы сразу начинаем оформление<br>
-        4. Готовим контракт и подаём все документы<br>
-        5. Через 10–14 дней виза придёт на email
-      </p>
-    </div>
-    <div class="card" data-modal="4">
-      <span class="number">4</span>
-      <h2 class="text-lg font-semibold mb-1">Вопросы?</h2>
-      <p>
-        — Это реально? Да, даём гарантию: не оформим — вернём деньги<br>
-        — Нужно ли что-то ещё? Нет, только паспорт и селфи<br>
-        — Работаю на иностранную компанию — подойдёт? Да, это и есть digital nomad<br>
-        — Страшно ошибиться? Мы проверим документы и подаём только после верификации<br>
-        — Впервые оформляю визу — поддержим на каждом этапе
-      </p>
-    </div>
-    <div class="card" data-modal="5">
-      <span class="number">5</span>
-      <h2 class="text-lg font-semibold mb-1">Готовы начать?</h2>
-      <p>Забудь про продления, хаос и риски на границе. Digital nomad-виза — это твой официальный путь жить за границей годами. Пиши нам, и мы поможем пройти всё шаг за шагом. Официально. Без нервов. С гарантией.</p>
-    </div>
-  </div>
-  <div id="modal-root"></div>
-  <footer class="main-footer-cta">
-    <div class="footer-title">Готовы оформить визу?</div>
-    <div class="footer-btns">
-      <a class="footer-btn" href="https://t.me/evisa_support" target="_blank">Написать в Telegram</a>
-      <a class="footer-btn" href="https://wa.me/84776739907" target="_blank">WhatsApp</a>
-    </div>
-  </footer>
-  <script>
-    const modalContent = [
-      {
-        title: "Год без визаранов",
-        text: "Официальная digital nomad-виза на 1 год — легальный статус, никакой депортации и штрафов."
-      },
-      {
-        title: "Подходит для удалённых",
-        text: "Работаешь на иностранную компанию? Это твоя категория. Оформим легальный контракт."
-      },
-      {
-        title: "Что нужно?",
-        text: "Паспорт, селфи и $350. Всё остальное делаем мы. Через 10–14 дней виза будет на email."
-      },
-      {
-        title: "Гарантия результата",
-        text: "Не оформили визу — вернём деньги. Документы проверяются до подачи, отказов не бывает."
-      },
-      {
-        title: "Хватит откладывать",
-        text: "Подай заявку сегодня — и через пару недель будешь жить легально и спокойно. Пиши нам!"
-      }
-    ];
-    document.querySelectorAll('.card').forEach(card => {
-      card.addEventListener('click', function(e) {
-        const idx = parseInt(card.getAttribute('data-modal')) - 1;
-        openModal(idx);
-      });
-    });
-    function openModal(idx) {
-      const { title, text } = modalContent[idx] || modalContent[0];
-      document.getElementById('modal-root').innerHTML = `
-        <div class="modal-backdrop">
-          <div class="modal-card">
-            <div class="modal-logo">
-              <img src="https://easyvisa.world/wp-content/uploads/2023/12/logo2.svg_.svg" alt="EasyVisa Logo" style="width:100%;height:auto;max-height:54px;object-fit:contain;">
-            </div>
-            <button class="modal-close" title="Закрыть">
-              <svg viewBox="0 0 32 32" fill="none">
-                <circle cx="16" cy="16" r="15" stroke="#14b8a6" stroke-width="2" fill="none"/>
-                <path d="M10 10 L22 22 M22 10 L10 22" stroke="#14b8a6" stroke-width="2" stroke-linecap="round"/>
-              </svg>
-            </button>
-            <div class="modal-title">${title}</div>
-            <div class="modal-content-text">${text}</div>
-            <div class="modal-btns">
-              <a class="modal-btn" href="https://t.me/evisa_support" target="_blank">Telegram</a>
-              <a class="modal-btn" href="https://wa.me/84776739907" target="_blank">WhatsApp</a>
-              <a class="modal-btn" href="https://easyvisa.world/" target="_blank">Сайт</a>
-            </div>
-          </div>
-        </div>
-      `;
-      document.body.style.overflow = 'hidden';
-      document.querySelector('.modal-close').onclick = closeModal;
-      document.querySelector('.modal-backdrop').onclick = function(e) {
-        if (e.target === this) closeModal();
-      };
+  <!-- Schema markup -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Service",
+    "name": "F-1 Digital Nomad Visa for South Korea",
+    "description": "One-year digital nomad visa (F-1) for South Korea. Live and work remotely without visa runs. Price $350, processed online in 10–14 days, money-back guarantee.",
+    "provider": {
+      "@type": "Organization",
+      "name": "EasyVisa",
+      "url": "https://easyvisa.world"
+    },
+    "offers": {
+      "@type": "Offer",
+      "price": "350",
+      "priceCurrency": "USD",
+      "url": "https://easyvisa.world/f1-digital-nomad",
+      "availability": "https://schema.org/InStock"
     }
-    function closeModal() {
-      document.getElementById('modal-root').innerHTML = '';
-      document.body.style.overflow = '';
-    }
+  }
   </script>
-<?php include $_SERVER['DOCUMENT_ROOT'].'/include/footer.php'; ?>
+</head>
+<body>
+<?php include($_SERVER['DOCUMENT_ROOT'].'/include/header.php'); ?>
 
-<!-- Живо чат -->
-<script>
-(function() {
-  var script = document.createElement('script');
-  script.src = 'https://widget.jivo.ru/loader/YQEVybtqE-_SzU8lh6IUr3l0eOAGDd1A.js';
-  script.async = true;
-  document.head.appendChild(script);
-})();
-</script>
+<main>
+  <div class="service-container">
+    <!-- Hero Section -->
+    <section class="hero-section" style="background:linear-gradient(135deg,#0891b2 0%,#0ea5e9 100%);">
+      <div class="hero-content">
+        <h1 class="hero-title">F-1 Digital Nomad — 1 год</h1>
+        <p class="hero-subtitle">Первая цифровая виза в Южной Корее. Живи и работай удалённо без визаранов целый год. Всё включено (сборы, анкета, поддержка).</p>
+        <div class="price-badge" style="background-color:#0891b2;">$350 USD</div>
+        <div class="cta-buttons">
+          <a href="https://t.me/evisa_support" target="_blank" class="btn btn-primary">Telegram</a>
+          <a href="https://wa.me/84776739907" target="_blank" class="btn btn-secondary">WhatsApp</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- Steps Section -->
+    <section class="steps-section">
+      <h2 class="section-title">Digital Nomad-виза — живи и работай за границей за $350</h2>
+
+      <div class="steps-grid">
+        <!-- Step 1 -->
+        <div class="step-card">
+          <div class="step-number">1</div>
+          <h3 class="step-title">Официальный год в Корее</h3>
+          <div class="step-content">
+            <p>Работаешь онлайн и мечтаешь жить легально за границей? Оформи digital nomad-визу F-1: год в Корее без страха депортации и хаоса с продлениями. Только паспорт и селфи — остальное делаем мы.</p>
+          </div>
+        </div>
+
+        <!-- Step 2 -->
+        <div class="step-card">
+          <div class="step-number">2</div>
+          <h3 class="step-title">Что входит?</h3>
+          <div class="step-content">
+            <ul class="features-list">
+              <li>Годовая digital nomad-виза</li>
+              <li>Гарантия получения: не оформили — вернём деньги</li>
+              <li>Только паспорт и селфи</li>
+              <li>Легальный контракт удалённого работника</li>
+              <li>Срок оформления — 10–14 дней</li>
+            </ul>
+          </div>
+        </div>
+
+        <!-- Step 3 -->
+        <div class="step-card">
+          <div class="step-number">3</div>
+          <h3 class="step-title">Как подать?</h3>
+          <div class="step-content">
+            <ol>
+              <li>- Напиши нам в Telegram: <strong><a href="https://t.me/evisa_support" style="color:#3b82f6;">@evisa_support</a></strong></li>
+              <li>- Отправь фото паспорта и селфи</li>
+              <li>- Оплати $350 — мы сразу начинаем оформление</li>
+              <li>- Готовим контракт и подаём все документы</li>
+              <li>- Через 10–14 дней виза придёт на email</li>
+            </ol>
+          </div>
+        </div>
+
+        <!-- Step 4 -->
+        <div class="step-card">
+          <div class="step-number">4</div>
+          <h3 class="step-title">Вопросы?</h3>
+          <div class="step-content">
+            <p>- Это реально? Да, даём гарантию: не оформили — вернём деньги.</p>
+            <p>- Нужно ли что-то ещё? Нет, только паспорт и селфи.</p>
+            <p>- Работаю на иностранную компанию — подойдёт? Да, это и есть digital nomad.</p>
+            <p>- Страшно ошибиться? Мы проверим документы перед подачей.</p>
+            <p>- Впервые оформляешь визу? Поддержим на каждом этапе.</p>
+          </div>
+        </div>
+
+        <!-- Step 5 (full-width) -->
+        <div class="step-card" style="grid-column:1 / -1;">
+          <div class="step-number">5</div>
+          <h3 class="step-title">Готовы начать?</h3>
+          <div class="step-content">
+            <p>Забудь про продления и риски на границе. Digital nomad-виза — твой официальный путь жить в Корее годами. Пиши нам, и мы проведём тебя через все шаги без нервов.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Final CTA -->
+    <section class="final-cta">
+      <div class="final-cta-content">
+        <h2 style="font-size:2rem;margin-bottom:1rem;">Хочешь жить в Корее год без визаранов?</h2>
+        <p style="margin-bottom:2rem;opacity:.9;">Оформи F-1 Digital Nomad-визу за 10–14 дней. Мы берём все заботы на себя и даём гарантию результата.</p>
+        <div class="cta-buttons">
+          <a href="https://t.me/evisa_support" target="_blank" class="btn btn-primary">Написать в Telegram</a>
+          <a href="https://wa.me/84776739907" target="_blank" class="btn btn-secondary">WhatsApp</a>
+        </div>
+      </div>
+    </section>
+  </div>
+
+  <!-- Lead Form Modal -->
+  <div id="leadFormModal" class="lead-form-modal">
+    <div class="lead-form-overlay" onclick="closeLeadFormModal()"></div>
+    <div class="lead-form-content">
+      <button class="lead-form-close" onclick="closeLeadFormModal()" aria-label="Закрыть">&times;</button>
+
+      <div class="lead-form-header">
+        <h3 class="lead-form-title">Получить консультацию по F-1 Digital Nomad</h3>
+        <p class="lead-form-subtitle">Оставьте контакты, и мы свяжемся с вами в течение 15 минут</p>
+      </div>
+
+      <form id="leadForm" class="lead-form" action="/api/lead" method="post" autocomplete="off">
+        <input type="hidden" name="csrf_token" value="<?php echo htmlspecialchars($_SESSION['csrf_token'] ?? ''); ?>">
+
+        <div class="form-group">
+          <label for="leadName" class="form-label">Имя</label>
+          <input type="text" id="leadName" name="name" class="form-input" placeholder="Ваше имя" required>
+        </div>
+
+        <div class="form-group">
+          <label for="leadContact" class="form-label">Telegram или WhatsApp</label>
+          <input type="text" id="leadContact" name="contact" class="form-input" placeholder="@username или номер телефона" required>
+        </div>
+
+        <div class="form-group">
+          <label for="leadComment" class="form-label">Дополнительные вопросы (необязательно)</label>
+          <textarea id="leadComment" name="comment" class="form-textarea" placeholder="Расскажите о планах или задайте вопрос" rows="3"></textarea>
+        </div>
+
+        <button type="submit" class="form-submit-btn" id="submitLeadForm">
+          <svg width="20" height="20" fill="none" stroke="currentColor" viewBox="0 0 24 24" aria-hidden="true" focusable="false">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 19l9 2-9-18-9 18 9-2zm0 0v-8"></path>
+          </svg>
+          Отправить заявку
+        </button>
+      </form>
+
+      <div id="leadFormSuccess" class="lead-form-success" style="display:none;">
+        <div class="success-icon">✓</div>
+        <h4 class="success-title">Заявка отправлена!</h4>
+        <p class="success-message">Мы вернёмся к вам в течение 15 минут и начнём оформление F-1 Digital Nomad-визы</p>
+        <div class="success-buttons">
+          <a href="https://t.me/evisa_support" target="_blank" class="success-btn success-btn-telegram">
+            <svg width="18" height="18" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true" focusable="false">
+              <path d="M11.944 0A12 12 0 0 0 0 12a12 12 0 0 0 12 12 12 12 0 0 0 12-12A12 12 0 0 0 12 0a12 12 0 0 0-.056 0zm4.962 7.224c.1-.002.321.023.465.14a.506.506 0 0 1 .171.325c.016.093.036.306.02.472-.18 1.898-.962 6.502-1.36 8.627-.168.9-.499 1.201-.82 1.23-.696.065-1.225-.46-1.9-.902-1.056-.693-1.653-1.124-2.678-1.8-1.185-.78-.417-1.21.258-1.91.177-.184 3.247-2.977 3.307-3.23-.056-.212-.174-.041-.249-.024-.106.024-1.793 1.14-5.061 3.345-.48.33-.913.49-1.302.48-.428-.008-1.252-.241-1.865-.44-.752-.245-1.349-.374-1.297-.789.027-.216.325-.437.893-.663 3.498-1.524 5.83-2.529 6.998-3.014 3.332-1.386 4.025-1.627 4.476-1.635z"/>
+            </svg>
+            Написать сейчас
+          </a>
+          <button onclick="closeLeadFormModal()" class="success-btn success-btn-close">Закрыть</button>
+        </div>
+      </div>
+    </div>
+  </div>
+</main>
+
+<?php include($_SERVER['DOCUMENT_ROOT'].'/include/footer.php'); ?>
+<script src="/js/app_add.js" defer></script>
 </body>
 </html>
