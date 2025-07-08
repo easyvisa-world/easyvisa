@@ -4,9 +4,9 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-  <title>Продление визы B1 на Бали — EasyVisa | Оформление за 1 день</title>
-  <meta name="description" content="Продлим визу B1 на Бали всего за $59 без визарана и скрытых платежей. Онлайн-оформление за 1 день, бесплатная бронь билета, поддержка 24/7.">
-
+  <title>Продление B1 — 30 дней на Бали — EasyVisa | Онлайн без выезда</title>
+  <meta name="description" content="Оформление без выезда, полностью онлайн за 1 день. Гарантия легальности, всё включено: сборы, анкета, поддержка. Цена $59.">
+  
   <!-- Canonical & hreflang -->
   <link rel="canonical" href="https://easyvisa.world/b1-extension">
   <link rel="alternate" hreflang="ru" href="https://easyvisa.world/b1-extension">
@@ -18,8 +18,8 @@
   <!-- Open Graph -->
   <meta property="og:type" content="website">
   <meta property="og:url" content="https://easyvisa.world/b1-extension">
-  <meta property="og:title" content="Продление визы B1 на Бали — EasyVisa | Оформление за 1 день">
-  <meta property="og:description" content="Продлим визу B1 на Бали всего за $59 без визарана и скрытых платежей. Онлайн-оформление за 1 день, бесплатная бронь билета, поддержка 24/7.">
+  <meta property="og:title" content="Продление B1 — 30 дней на Бали — EasyVisa | Онлайн без выезда">
+  <meta property="og:description" content="Оформление без выезда, полностью онлайн за 1 день. Гарантия легальности, всё включено: сборы, анкета, поддержка. Цена $59.">
   <meta property="og:image" content="https://easyvisa.world/img/og-b1-ext.png">
   <meta property="og:image:width" content="1200">
   <meta property="og:image:height" content="630">
@@ -27,8 +27,8 @@
 
   <!-- Twitter -->
   <meta name="twitter:card" content="summary_large_image">
-  <meta name="twitter:title" content="Продление визы B1 на Бали — EasyVisa | Оформление за 1 день">
-  <meta name="twitter:description" content="Продлим визу B1 на Бали всего за $59 без визарана и скрытых платежей. Онлайн-оформление за 1 день, бесплатная бронь билета, поддержка 24/7.">
+  <meta name="twitter:title" content="Продление B1 — 30 дней на Бали — EasyVisa | Онлайн без выезда">
+  <meta name="twitter:description" content="Оформление без выезда, полностью онлайн за 1 день. Гарантия легальности, всё включено: сборы, анкета, поддержка. Цена $59.">
   <meta name="twitter:image" content="https://easyvisa.world/img/og-b1-ext.png">
 
   <!-- Styles -->
@@ -41,7 +41,7 @@
     "@context": "https://schema.org",
     "@type": "Service",
     "name": "B1 Visa Extension for Bali",
-    "description": "Extension of electronic B1 visa for another 30 days. Processed online in 1 day without leaving Indonesia. Price $59, visa fee included.",
+    "description": "Extension of electronic B1 visa for another 30 days. Processed fully online in 1 day without leaving Indonesia. Price $59, visa fee included.",
     "provider": {
       "@type": "Organization",
       "name": "EasyVisa",
@@ -65,8 +65,8 @@
     <!-- Hero Section -->
     <section class="hero-section" style="background:linear-gradient(135deg,#0891b2 0%,#0ea5e9 100%);">
       <div class="hero-content">
-        <h1 class="hero-title">Продление визы B1 — ещё 30 дней на Бали</h1>
-        <p class="hero-subtitle">Продлим B1 за 1 день, без визарана и штрафов. Оставайся легально — наслаждайся островом.</p>
+        <h1 class="hero-title">Продление B1 — 30 дней</h1>
+        <p class="hero-subtitle">Оформление без выезда, полностью онлайн за 1 день. Гарантия легальности. Всё включено: сборы, анкета, поддержка. Можно продлить ещё на 30 дней — до 60 дней в сумме.</p>
         <div class="price-badge" style="background-color:#0891b2;">$59 USD</div>
         <div class="cta-buttons">
           <a href="https://t.me/evisa_support" target="_blank" class="btn btn-primary">Telegram</a>
@@ -85,7 +85,7 @@
           <div class="step-number">1</div>
           <h3 class="step-title">Продление визы B1 за $59</h3>
           <div class="step-content">
-            <p>Виза подходит к концу? Продлим B1 за 1 день, без очередей, визарана и штрафов. Забудь про иммиграцию — наслаждайся островом.</p>
+            <p>Виза подходит к концу? Не хочется никуда улетать, дергаться, терять деньги на билетах и нервах? Продление B1 — это шанс остаться легально на Бали ещё на месяц, не меняя ритм жизни и не переживая из-за статуса. Продлим B1 за 1 день, без очередей, без визарана и штрафов. Забудь про иммиграцию — наслаждайся островом.</p>
           </div>
         </div>
 
@@ -97,7 +97,7 @@
             <ul class="features-list">
               <li>Онлайн-оформление за 1 день</li>
               <li>Бесплатная бронь обратного билета</li>
-              <li>Полное сопровождение: поддержка на русском, ответы на все вопросы</li>
+              <li>Полное сопровождение: поддержка на русском, отвечаем на все вопросы</li>
               <li>Не нужно сдавать паспорт — всё оформляется онлайн</li>
             </ul>
           </div>
@@ -109,12 +109,12 @@
           <h3 class="step-title">Как подать?</h3>
           <div class="step-content">
             <ol>
-              <li>- Напиши нам в Telegram: <strong><a href="https://t.me/evisa_support" style="color:#3b82f6;">@evisa_support</a></strong></li>
-              <li>- Отправь фото паспорта, селфи и оплату</li>
-              <li>- В течение 2 рабочих дней будет назначена сдача биометрии</li>
-              <li>- Сдаёшь отпечатки и делаешь фото в миграционной</li>
-              <li>- Платить в миграционной больше не нужно — всё оплачено заранее</li>
-              <li>- К оплате принимаем: IDR/MYR/VND/RUB/EUR/USDT</li>
+              <li>Напиши нам в Telegram: <strong><a href="https://t.me/evisa_support" style="color:#3b82f6;">@evisa_support</a></strong></li>
+              <li>Отправь фото паспорта, селфи и оплату</li>
+              <li>В теч. 2 рабочих дней будет назначена сдача биометрии</li>
+              <li>Просто сдаёшь отпечатки и делаешь фото в миграционной</li>
+              <li>ПЛАТИТЬ В МИГРАЦИОННОЙ БОЛЬШЕ НЕ НУЖНО, ВСЁ ОПЛАЧЕНО ЗАРАНЕЕ</li>
+              <li>К оплате принимаем: IDR/MYR/VND/RUB/EUR/USDT</li>
             </ol>
           </div>
         </div>
@@ -136,7 +136,7 @@
           <div class="step-number">5</div>
           <h3 class="step-title">Готовы начать?</h3>
           <div class="step-content">
-            <p>Более 4000 человек уже продлили B1 через нас — без штрафов и очередей. Не рискуй своим спокойствием — останься на Бали легально. Напиши нам сейчас и забудь о визовых проблемах.</p>
+            <p>Больше 4000 человек уже оформили B1 через нас — без штрафов, очередей и вылетов. Не рискуй своим спокойствием — останься на Бали легально. Не трать нервы на поиски агентов и непонятные чаты. Просто напиши нам — и забудь о визовых проблемах.</p>
           </div>
         </div>
       </div>
@@ -145,8 +145,8 @@
     <!-- Final CTA -->
     <section class="final-cta">
       <div class="final-cta-content">
-        <h2 style="font-size:2rem;margin-bottom:1rem;">Готовы продлить визу?</h2>
-        <p style="margin-bottom:2rem;opacity:.9;">Присоединяйтесь к тысячам довольных клиентов</p>
+        <h2 style="font-size:2rem;margin-bottom:1rem;">Готовы начать?</h2>
+        <p style="margin-bottom:2rem;opacity:.9;">Больше 4000 человек уже оформили B1 через нас — без штрафов, очередей и вылетов. Не рискуй своим спокойствием — останься на Бали легально. Просто напиши нам и забудь о визовых проблемах.</p>
         <div class="cta-buttons">
           <a href="https://t.me/evisa_support" target="_blank" class="btn btn-primary">Написать в Telegram</a>
           <a href="https://wa.me/84776739907" target="_blank" class="btn btn-secondary">WhatsApp</a>
