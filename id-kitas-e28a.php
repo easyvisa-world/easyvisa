@@ -4,7 +4,7 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-  <title>KITAS E28A — бизнес-виза на 1 год — EasyVisa | Легальный статус для бизнеса</title>
+  <title>KITAS E28A — KITAS Инвестора на 1 год — EasyVisa | Легальный статус для инвесторов</title>
   <meta name="description" content="KITAS E28A — официальная бизнес-виза на 1 год для инвестиций и коммерческой деятельности в Индонезии. Всё включено: сборы, анкета, поддержка. Оформление онлайн за 14-21 день. Цена $1290.">
 
   <!-- Canonical & hreflang -->
@@ -65,8 +65,8 @@
     <!-- Hero Section -->
     <section class="hero-section" style="background:linear-gradient(135deg,#0891b2 0%,#0ea5e9 100%);">
       <div class="hero-content">
-        <h1 class="hero-title">KITAS E28A — бизнес-виза на 1 год</h1>
-        <p class="hero-subtitle">Официальная виза для ведения бизнеса, инвестиций и коммерческой деятельности в Индонезии. Всё включено (сборы, анкета, поддержка). Возможность продления каждый год — легальный статус для бизнеса.</p>
+        <h1 class="hero-title">KITAS E28A — KITAS Инвестора на 1 год</h1>
+        <p class="hero-subtitle">Официальная виза для ведения бизнеса, инвестиций и коммерческой деятельности в Индонезии. Всё включено (сборы, анкета, поддержка). Возможность продления каждый год и полноценное индонезийское резиденство.</p>
         <div class="price-badge" style="background-color:#0891b2;">$1290 USD</div>
         <div class="cta-buttons">
           <a href="https://t.me/evisa_world" target="_blank" class="btn btn-primary">Telegram</a>
